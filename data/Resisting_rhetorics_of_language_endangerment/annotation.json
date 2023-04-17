@@ -1,0 +1,1779 @@
+[
+  {
+    "id": 1,
+    "annotations": [
+      {
+        "id": 7,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 254,
+              "end": 258,
+              "text": "this",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "En_lv1NaF4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 66,
+              "end": 188,
+              "text": "the importance of looking carefully at the rhetorics used by academics when discussing Indigenous and endangered languages",
+              "labels": [
+                "SubjAntd"
+              ]
+            },
+            "meta": {
+              "text": [
+                "I state to the following assessment: the importance of looking ..."
+              ]
+            },
+            "id": "GcbCZVgKBk",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 210,
+              "end": 214,
+              "text": "this",
+              "labels": [
+                "SubjAnph"
+              ]
+            },
+            "meta": {
+              "text": [
+                "Namely the importance of looking carefully at the rhetorics used by academics when discussing Indigenous and endangered languages.\n\nthis opinion "
+              ]
+            },
+            "id": "uuZdIx66jq",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1046,
+              "end": 1050,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "pXhy_zxG5c",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 948,
+              "end": 971,
+              "text": "singular characteristic",
+              "labels": [
+                "NonAbsAntd"
+              ]
+            },
+            "id": "uEhzDZISWt",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "uuZdIx66jq",
+            "to_id": "GcbCZVgKBk",
+            "type": "relation",
+            "direction": "right",
+            "labels": []
+          },
+          {
+            "from_id": "pXhy_zxG5c",
+            "to_id": "uEhzDZISWt",
+            "type": "relation",
+            "direction": "right",
+            "labels": []
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-16T01:43:03.931105Z",
+        "updated_at": "2023-04-17T01:42:08.211281Z",
+        "lead_time": 2916.3150000000005,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "6ecbefb9-66f1-41fe-97c7-1fcea03f2e4a",
+        "last_action": null,
+        "task": 1,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "0a1f1e3c-37_41.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "Hill (2002) (and the robust discussions it inspired) demonstrated the importance of looking carefully at the rhetorics used by academics when discussing Indigenous and endangered languages. Fifteen years later this still remains a subject of concern. In this article I examine how three related strategies are increasingly employed in both academic and public domains: Linguistic extraction is the process of discussing languages and language reclamation movements removed from the personal lives, communicative practices, and embodied experiences in which they inherently are embedded, while the erasure of colonial agency minimises the historical and ongoing causes of language endangerment and dormancy, sometimes to the extent of misattributing agency for such realities onto Indigenous communities themselves. Lasting is a discursive process through which Indigenous populations are framed as ‘vanishing’, first by defining Indians based on a singular characteristic, and then lamenting the passing of the ‘last’ Indians assumed to have had that single defining characteristic (O’Brien 2010). I explore the implications of these rhetorics for both endangered language movements and the communities at the center of those movements, with a particular emphasis on the discursive tactics that resist these strategies which are utilised by Indigenous community members and language activists."
+    },
+    "meta": {},
+    "created_at": "2023-04-16T01:05:20.611655Z",
+    "updated_at": "2023-04-17T01:42:08.233276Z",
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 2,
+    "annotations": [
+      {
+        "id": 8,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 318,
+              "end": 322,
+              "text": "this",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "O4zK6xNKD-",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-16T01:44:07.277583Z",
+        "updated_at": "2023-04-16T01:44:07.277626Z",
+        "lead_time": 50.339,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b0859b41-ef2a-4749-abca-66f7cebb8954",
+        "last_action": null,
+        "task": 2,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "0a1f1e3c-37_41.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "From BBC News and the Guardian, the New York Times and the Huffington Post to Vodafone promotional materials, endangered languages are an increasingly pervasive topic in the media. The rhetorical strategies deployed are intended to raise public awareness about language endangerment. These strategies are the focus of this paper, which draws on a corpus of articles and online posts from the past decade published in established, English-language newspapers, media outlets, and magazines with wide, multi-national circulation in both digital and print formats, and increased dissemination through social media platforms such as Twitter, Reddit, and Facebook. The rhetorics discussed here come from examples of media coverage of language endangerment with the highest circulation, identified by the number of reader subscriptions for print media, and the number of accesses, shares, ‘likes’, and reposts for digital formats. I focus on media discussions of language endangerment, because, as Nancy Rivenburgh (2011:704) notes in her examination of how English-language media frame the causes and implications of language endangerment: ‘For better or worse, people rely heavily on media to understand how these global phenomena touch their lives’."
+    },
+    "meta": {},
+    "created_at": "2023-04-16T01:05:20.611791Z",
+    "updated_at": "2023-04-16T01:44:07.307244Z",
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 3,
+    "annotations": [
+      {
+        "id": 9,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 225,
+              "end": 229,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "Fwd7Bji8rH",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-16T01:44:38.462335Z",
+        "updated_at": "2023-04-16T04:56:48.330408Z",
+        "lead_time": 112.562,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "3cfb7252-5c98-4751-995d-751e94ef8fd6",
+        "last_action": null,
+        "task": 3,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "0a1f1e3c-37_41.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "Specifically, I examine rhetorics surrounding language endangerment and their implications for Indigenous communities in North America and for many endangered language communities more broadly, where they create a status quo that Meek (2011:55) argues ‘constantly presents barriers, challenges, or constraints that need to be destroyed, unpacked, and deconstructed, or just changed.’ In doing so, I join a growing number of scholars who examine closely the rhetorics surrounding Indigenous languages and their impact on public and community conceptualisation, language reclamation efforts, and even language policy in order to begin to unpack these discourses (Hill 2002;Leonard 2008, 2017; Meek 2010, 2011; Perley 2012)."
+    },
+    "meta": {},
+    "created_at": "2023-04-16T01:05:20.611882Z",
+    "updated_at": "2023-04-16T04:56:48.352712Z",
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 4,
+    "annotations": [
+      {
+        "id": 10,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 373,
+              "end": 377,
+              "text": "this",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "HstAschk9z",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 227,
+              "end": 231,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "4epcCqd1jf",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1651,
+              "end": 1655,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "ctj9zqAEMj",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1293,
+              "end": 1297,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "jmhwQ_7vwc",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1701,
+              "end": 1705,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "fL8ZFXyKQV",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1094,
+              "end": 1098,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "eN6J43Xpw2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-16T04:15:02.747587Z",
+        "updated_at": "2023-04-16T05:06:31.079063Z",
+        "lead_time": 9601.908000000001,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "54f97a30-6c44-4353-b742-ae6e8c0ce54b",
+        "last_action": null,
+        "task": 4,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "0a1f1e3c-37_41.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "Hill (2002) asked academics writing about language endangerment ‘who is listening, and what do they hear?’ as a means of interrogating the underlying assumptions and entailments of language advocacy rhetoric in order to ensure that we do not ‘distress and alienate’ the communities we advocate for and with (Hill 2002:120). Fifteen years later, we have several answers. As this article will show, the world was listening. It responded through the creation of new policies and in some cases an ideological shift away from shaming and devaluing language diversity to a valorisation of those same languages. At the same time, the rhetorics identified by Hill now extend from academic papers and grant proposals into mainstream media discourses about language endangerment and the affected communities. The three themes Hill identified are: ‘universal ownership’, ‘hyperbolic valorisation’, and ‘enumeration’. Universal ownership, as Hill defines it, is the positioning of endangered languages as belonging to everyone, especially the target audiences for language advocacy, ‘who must be convinced that they “possess” this particular form of wealth and are somehow responsible for it’ (Hill 2002:121). A related process is hyperbolic valorisation through which languages are framed as ‘resources’ that have ‘value’, utilizing economic metaphors such as languages being ‘treasures’ or ‘priceless’. Finally, enumeration involves the ‘essentialization and individualization of a language as a sort of unit’ (Hill 2002:127), and heavy reliance on statistical representations to describe endangered languages at a global scale. Critically, Hill does not argue that all uses of these themes are bad, but rather that researchers should consider their rhetorical strategies carefully, including alternative frameworks of representation such as a rhetoric of human rights."
+    },
+    "meta": {},
+    "created_at": "2023-04-16T01:05:20.611979Z",
+    "updated_at": "2023-04-16T05:06:31.099806Z",
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 5,
+    "annotations": [
+      {
+        "id": 11,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 225,
+              "end": 229,
+              "text": "this",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "88N8MwALcO",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 76,
+              "end": 80,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "dxzstPEpIQ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1693,
+              "end": 1697,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "hK2SKOCROI",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-16T04:15:25.745337Z",
+        "updated_at": "2023-04-16T05:09:00.453775Z",
+        "lead_time": 168.801,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c80a9c3b-c177-4db5-9e4c-e2072f042895",
+        "last_action": null,
+        "task": 5,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "0a1f1e3c-37_41.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "Building on Hill’s framework, I examine three additional related strategies that are increasingly deployed in both academic and public domains, and which are evidenced in the corpus of popular and scholarly texts reviewed in this paper: linguistic extraction, erasure or misattribution of colonial agency, and ‘lasting’. Linguistic extraction is the process of discussing languages and language reclamation movements extracted from the personal lives, communicative practices, and embodied experiences in which they are inherently embedded. The erasure of colonial agency minimises historical and ongoing causes of language endangerment and dormancy, sometimes to the extent of misattributing agency onto Indigenous communities themselves. Lasting draws on O’Brien’s (2010) identification of the discursive and semiotic process through which Indigenous populations are framed as ‘vanishing’, and applies it specifically to practices within the context of Indigenous and endangered languages. It is replicated in discussions about ‘last speakers’ and over-emphasis on declining speaker populations (Muehlmann 2012) rather than new speakers and positive language reclamation effects. By examining these widely circulating rhetorics, within studies of broader colonial framings of Indigenous people within Native American and Indigenous studies, I will demonstrate how such rhetorics both draw on existing trends within settler societies and continue to influence them. Then, I will ‘listen’ to a different body of rhetoric – produced by members of endangered language communities and in ethnographic accounts of language reclamation – in search of discursive strategies of linguistic survivance that resist colonial tropes and neo-colonial desires of language-as-resource extraction. "
+    },
+    "meta": {},
+    "created_at": "2023-04-16T01:05:20.612074Z",
+    "updated_at": "2023-04-16T05:09:00.477235Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 6,
+    "annotations": [
+      {
+        "id": 12,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 1254,
+              "end": 1258,
+              "text": "this",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "wy3dXtG07u",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 75,
+              "end": 298,
+              "text": "linguistic extraction, i.e. defining, analysing, and representing languages and the people connected to them separately from the complex socio-historical, political, and deeply personal contexts in which they actually occur",
+              "labels": [
+                "NonAbsAntd"
+              ]
+            },
+            "id": "yJQF9Zi3Sn",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 16,
+              "end": 20,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "vsOSCH36Rw",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 372,
+              "end": 376,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "KDd0uK7nc9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 544,
+              "end": 548,
+              "text": "that ",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "yqF_6S9Nll",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 821,
+              "end": 825,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "x3LoOStbtx",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1416,
+              "end": 1420,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "0bAkhaoGO4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "wy3dXtG07u",
+            "to_id": "yJQF9Zi3Sn",
+            "type": "relation",
+            "direction": "right",
+            "labels": []
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-16T04:25:12.198487Z",
+        "updated_at": "2023-04-16T05:12:22.469667Z",
+        "lead_time": 659.732,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ba940259-bcac-46af-bf93-229aeaf4ec50",
+        "last_action": null,
+        "task": 6,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "0a1f1e3c-37_41.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "The first trend that emerges in media coverage of language endangerment is linguistic extraction, i.e. defining, analysing, and representing languages and the people connected to them separately from the complex socio-historical, political, and deeply personal contexts in which they actually occur. Linguistic extraction, then, renders languages into extractable objects that can be collected, preserved, utilised, and even admired. Critically, linguistic extraction is not solely the collection of endangered and Indigenous languages in ways that often render them inaccessible to their communities, but also the presentation of languages as objects, or data, without their complex and varied human contexts. In his analysis of both popular and scholarly literature about endangered languages, Moore (2006:297) asserts that it ‘summons its readers to an encounter with these languages as monuments in a sculpture garden of human cognitive achievements, objects of wonder and appreciation’. Like the natural resources and ‘treasures’ with which they have been frequently aligned, Indigenous and endangered languages – as a whole or in their component pieces – are frequently utilised in processes labeled ‘mining’ and ‘harvesting’ by researchers within this extractive framework. This literal and metaphorical extraction from context is itself a colonial enterprise and often a cornerstone of Western science – one that removes people from homelands, loots objects from graves in the name of science and education, and disassociates products from those who labour to produce them. In other words, it celebrates the empire in empirical. Extraction is the foundation of enumeration identified by Hill, where qualities of languages or people are counted and then detached from their larger dynamics."
+    },
+    "meta": {},
+    "created_at": "2023-04-16T01:05:20.612170Z",
+    "updated_at": "2023-04-16T05:12:22.490603Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 7,
+    "annotations": [
+      {
+        "id": 13,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 675,
+              "end": 679,
+              "text": "this",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "mZoF609i40",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-16T04:30:19.002422Z",
+        "updated_at": "2023-04-16T17:21:03.620221Z",
+        "lead_time": 43978.746,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "6c9d66b3-3628-42ce-a126-a3fec524a5b2",
+        "last_action": null,
+        "task": 7,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "0a1f1e3c-37_41.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "Linguistic extraction also happens in valuing linguistic data over the speakers from whom it comes, and the communities and contexts in which it is produced. Take, for example, this representative excerpt from a National Geographic article on ‘Languages racing to extinction in 5 global “hotspots”’ (Lovegren 2007:1) setting up the backdrop for the story’s focus on language endangerment: In the last 500 years, an estimated half of the world’s languages, from Etruscan to Tasmanian, have become extinct. But researchers say the languages of the world are now vanishing faster than ever in recorded history. More than 500 languages may be spoken by fewer than ten people. In this article, which had over 8,000 ‘likes’ and around 2,000 ‘shares’ on Facebook alone, decontextualised enumeration allows for the available numbers to appear randomised, as though in a world with thousands of languages, all are equally at risk of endangerment; or, in a community with 500 speakers and a population of 50,000, any individual out of 100 might be a speaker. In reality, these numbers are embedded in particular (but interrelated) geographic, socio-economic, familial, and historical contexts. Their rhetorical presupposition reveals another level of extraction frequently utilised in media discussion of language endangerment: the erasure of factors that shape language shift. In Lovegren (2007) no rationale is given for why the last 500 years might be a significantly different moment in language transmission, even though it coincides with the period of European and American colonialism and globalisation."
+    },
+    "meta": {},
+    "created_at": "2023-04-16T01:05:20.612265Z",
+    "updated_at": "2023-04-16T17:21:03.635892Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 8,
+    "annotations": [
+      {
+        "id": 14,
+        "completed_by": 2,
+        "result": [],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-16T04:30:46.163046Z",
+        "updated_at": "2023-04-16T04:30:46.163078Z",
+        "lead_time": 26.233,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "3f7c654a-1147-4256-9346-7809dbc20651",
+        "last_action": null,
+        "task": 8,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "0a1f1e3c-37_41.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "A 2014 ‘op-doc’ piece ‘Who speaks Wukchumni?’ in the New York Times has a similar representation of language endangerment in its introduction to a short documentary about a fluent speaker who wrote the first comprehensive dictionary of the language (Vaughan-Lee 2014): Throughout the Unites States, many Native Americans languages are struggling to survive. According to Unesco, more than 130 of these languages are currently at risk, with 74 languages considered ‘critically endangered.’ These languages preserve priceless cultural heritage, and some hold unexpected value – nuances in these languages convey unparalleled knowledge of the natural world. Many of these at-risk languages are found in my home state of California. Now for some, only a few fluent speakers remain."
+    },
+    "meta": {},
+    "created_at": "2023-04-16T01:05:20.612353Z",
+    "updated_at": "2023-04-16T04:30:46.188635Z",
+    "inner_id": 8,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 9,
+    "annotations": [
+      {
+        "id": 15,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 177,
+              "end": 181,
+              "text": "This ",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "idGuthsMCL",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-16T04:31:17.224747Z",
+        "updated_at": "2023-04-16T04:31:17.224797Z",
+        "lead_time": 29.382,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "506b1722-ab6c-4066-be2a-5cd477a77328",
+        "last_action": null,
+        "task": 9,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "0a1f1e3c-37_41.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "The short article then describes the documentary’s primary subject, Marie Wilcox, without a single mention of why so many Native American languages are ‘struggling to survive’. This form of linguistic extraction erases the very causes, historical and ongoing, of language endangerment. In the context of seemingly transparent numbers outlining the ‘crisis’ or ‘epidemic’ of language endangerment and a sudden, if de-historicised valuing of Indigenous languages by a global public, readers are left with the looming question – why?"
+    },
+    "meta": {},
+    "created_at": "2023-04-16T01:05:20.612438Z",
+    "updated_at": "2023-04-16T04:31:17.253710Z",
+    "inner_id": 9,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 10,
+    "annotations": [
+      {
+        "id": 16,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 732,
+              "end": 736,
+              "text": "this",
+              "labels": [
+                "NegAnph"
+              ]
+            },
+            "meta": {
+              "text": [
+                "Namely the omission of discussion of language endangerment  \n\nThis problem"
+              ]
+            },
+            "id": "-v12byp6V3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 565,
+              "end": 601,
+              "text": "discussions of language endangerment",
+              "labels": [
+                "EvAntd"
+              ]
+            },
+            "meta": {
+              "text": [
+                "I state to this event: discussions of language endangerment"
+              ]
+            },
+            "id": "OBCH906Uuv",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 41,
+              "end": 45,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "S174WfuDWO",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 186,
+              "end": 190,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "LMPsbBZa3h",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 278,
+              "end": 282,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "XueBZz_YLN",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 405,
+              "end": 409,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "o1guOJXA5O",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "-v12byp6V3",
+            "to_id": "OBCH906Uuv",
+            "type": "relation",
+            "direction": "right",
+            "labels": []
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-16T04:36:57.659872Z",
+        "updated_at": "2023-04-16T17:24:20.562153Z",
+        "lead_time": 506.27299999999997,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "223e534e-8cd7-4104-bb28-d4b6972f751e",
+        "last_action": null,
+        "task": 10,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "0a1f1e3c-37_41.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "The long view of human language shows us that language shift and change – especially shifts into language dormancy – do not simply occur outside of sociopolitical factors; thus, we know that languages are dynamic, and inherently in motion through intergenerational transmission that moves them forward through generations and spaces. Borrowing conceptually from Newton’s first law of motion, we can posit that languages tend to remain in motion – being transmitted to subsequent generations – unless an external force is applied to them. Omitting those forces from discussions of language endangerment leaves out a critical piece of the equation and contributes to the larger pattern of erasure originating in settler-colonialism – this omission is particularly problematic when such forces are still actively at work. Here, linguistic extraction is the gateway rhetorical process to the erasure of colonial agency and the misattribution of agency onto endangered language communities for their own linguistic demise, discussed in the next section."
+    },
+    "meta": {},
+    "created_at": "2023-04-16T01:05:20.612527Z",
+    "updated_at": "2023-04-16T17:24:20.582121Z",
+    "inner_id": 10,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 11,
+    "annotations": [
+      {
+        "id": 23,
+        "completed_by": 2,
+        "result": [],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-16T22:18:22.968352Z",
+        "updated_at": "2023-04-16T22:18:22.968393Z",
+        "lead_time": 13.75,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "61db68f1-c2e4-4789-b5a1-187fcbd9aaea",
+        "last_action": null,
+        "task": 11,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "a450832e-42_46.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "Such erasure or deflection of colonial agency is not limited to linguistic endangerment. As Deer (2015:x) notes in her analysis of sexual violence in Native American communities within the United States, the term ‘epidemic’ is often applied to describe the egregious numbers of violent sexual assaults against Indian women: Using the word epidemic deflects responsibility because it fails to acknowledge the agency of perpetrators and those who allow the problem to continue. The word also utterly fails to account for the crisis’s roots in history and law. Using the word epidemic to talk about violence in Indian country is to depoliticize rape. It is a fundamental misstatement of the problem."
+    },
+    "meta": {},
+    "created_at": "2023-04-16T22:18:06.944551Z",
+    "updated_at": "2023-04-16T22:18:22.997331Z",
+    "inner_id": 11,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 12,
+    "annotations": [
+      {
+        "id": 24,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 18,
+              "end": 22,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "7mlCWcFXky",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-16T22:18:51.137715Z",
+        "updated_at": "2023-04-16T22:18:51.137760Z",
+        "lead_time": 24.55,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "e3b476f5-fe80-43e7-9229-0123d41ec1f5",
+        "last_action": null,
+        "task": 12,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "a450832e-42_46.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "Here, Deer argues that the dominant discourses surrounding the pervasive sexual violence against Native American women, particularly framing it as an ‘epidemic’, erases the agent(s) and causes(s) of those realities; to present violence as naturally occurring not only ‘depoliticises’ the problem, but also absolves culpable parties of any responsibility. Similarly, the erasure of the sociohistorical dynamics which shape every aspect of language endangerment – especially as they relate to settler colonial nation states and their overt and covert policies aimed at destroying language transmission – then, is, to quote Deer, ‘a fundamental misstatement of the problem’."
+    },
+    "meta": {},
+    "created_at": "2023-04-16T22:18:06.944696Z",
+    "updated_at": "2023-04-16T22:18:51.168366Z",
+    "inner_id": 12,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 13,
+    "annotations": [
+      {
+        "id": 25,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 280,
+              "end": 284,
+              "text": "This",
+              "labels": [
+                "WhAnph"
+              ]
+            },
+            "meta": {
+              "text": [
+                "Namely the blame for the plight of Indigenous languages ...\n\nThis issue"
+              ]
+            },
+            "id": "tolTauguEN",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 154,
+              "end": 278,
+              "text": "the blame for the plight of Indigenous languages is often ascribed to the communities themselves, or individuals within them",
+              "labels": [
+                "CircAntd"
+              ]
+            },
+            "meta": {
+              "text": [
+                "I point to the following circumstance: the blame for the plight of ...."
+              ]
+            },
+            "id": "Kla_hqrvhO",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 361,
+              "end": 365,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "MuoCAUQCw1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 374,
+              "end": 378,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "h8Vg2wZ1zo",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "tolTauguEN",
+            "to_id": "Kla_hqrvhO",
+            "type": "relation",
+            "direction": "right",
+            "labels": []
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-16T22:20:33.057500Z",
+        "updated_at": "2023-04-16T22:20:33.057540Z",
+        "lead_time": 99.972,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c609c6d6-08fe-4a8d-80ac-88e1c7539265",
+        "last_action": null,
+        "task": 13,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "a450832e-42_46.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "While the role, and agency, of colonial powers is erased, the assignment of agency is not absent from media discussion of language endangerment. In fact, the blame for the plight of Indigenous languages is often ascribed to the communities themselves, or individuals within them. This is perhaps most visible in the metaphor of ‘language suicide’, which posits that a group that loses its language may do so by choice (Denison 1977). However, as Crawford (1995:24) notes, the ‘suicide’ frame of language death ‘explains little about the social forces underlying such choices. Whether deliberate or not, the notion of language suicide fosters a victim-blaming strategy’. Media representations frequently use language denoting that full (de-historicised) agency regarding the future of languages lies with endangered language communities. The title of the previously-cited National Geographic 2007 article, ‘Languages racing to extinction’, brings to mind a competition for fun or sport toward language attrition. Linguists working on language documentation are quoted describing the context in which language shift occurs (emphasis mine):"
+    },
+    "meta": {},
+    "created_at": "2023-04-16T22:18:06.944795Z",
+    "updated_at": "2023-04-16T22:20:33.087301Z",
+    "inner_id": 13,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 14,
+    "annotations": [
+      {
+        "id": 26,
+        "completed_by": 2,
+        "result": [],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-16T22:20:49.106702Z",
+        "updated_at": "2023-04-16T22:20:49.106750Z",
+        "lead_time": 13.988,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "5bfd5d4c-0f98-42c5-9997-c0697e32e9dc",
+        "last_action": null,
+        "task": 14,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "a450832e-42_46.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "[Gregory] Anderson, of the Enduring Voices Project, agreed that social pressures play a prominent role... ‘Language endangerment happens when a community decides that their language is somehow a social or economic impediment,’ he said. [K. David] Harrison said children are often the ones who decide to effectively abandon a native tongue. ‘Children are little barometers of social prestige,’ he said. ‘[I]n most cases, languages die a slow death, as people simply abandon their native tongues when they become surrounded by people speaking a more common language.’"
+    },
+    "meta": {},
+    "created_at": "2023-04-16T22:18:06.944867Z",
+    "updated_at": "2023-04-16T22:20:49.136007Z",
+    "inner_id": 14,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 15,
+    "annotations": [
+      {
+        "id": 27,
+        "completed_by": 2,
+        "result": [],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-16T22:21:13.958103Z",
+        "updated_at": "2023-04-16T22:21:13.958150Z",
+        "lead_time": 20.57,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "a43ba897-171c-42e2-bd82-864cb60b0012",
+        "last_action": null,
+        "task": 15,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "a450832e-42_46.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "In these statements, communities ‘decide’ their languages are ‘somehow ... impediments’, causing them to ‘simply abandon’ them. Language shift and language acquisition are represented as fully agentive choices linked only to ‘social prestige’ and ‘social pressures’ or some kind of unknowable impediment, and, while the inclusion of ‘social pressures’ hints at external factors, the final and repeated emphasis places agency on the community. The placement of agency on children here is particularly problematic when we consider that children are often the primary target of linguistic violence and regimes of cultural genocide (e.g., boarding schools, child welfare act, removal policies),, while simultaneously having the least power within the sociocultural language dynamics in which they are represented as ‘simply’ making such choices."
+    },
+    "meta": {},
+    "created_at": "2023-04-16T22:18:06.944927Z",
+    "updated_at": "2023-04-16T22:21:13.987079Z",
+    "inner_id": 15,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 16,
+    "annotations": [
+      {
+        "id": 33,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 931,
+              "end": 935,
+              "text": "This",
+              "labels": [
+                "SubjAnph"
+              ]
+            },
+            "meta": {
+              "text": [
+                "Namely the last two speakers refusing to talk to each other\n\nThis assessment"
+              ]
+            },
+            "id": "rs0CBtZ3f-",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 873,
+              "end": 929,
+              "text": "the last two speakers are refusing to talk to each other",
+              "labels": [
+                "CircAnph"
+              ]
+            },
+            "meta": {
+              "text": [
+                "I point to the following fact : the last two speakers refusing to talk to each other"
+              ]
+            },
+            "id": "iPQdVqHVW4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1981,
+              "end": 1985,
+              "text": "this",
+              "labels": [
+                "SubjAnph"
+              ]
+            },
+            "meta": {
+              "text": [
+                "Namely the action of two individuals whose personal feelings ...\n\nthis assessment"
+              ]
+            },
+            "id": "1UAxOLkzc3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1768,
+              "end": 1974,
+              "text": "in-life actions of two individuals whose personal feelings toward each other are of no consequence to a world desperate to extract valuable knowledge hidden within the treasure chest of Indigenous languages",
+              "labels": [
+                "CircAnph"
+              ]
+            },
+            "meta": {
+              "text": [
+                "I point to this circumstance: in-life actions of two individuals whose personal feelings ..."
+              ]
+            },
+            "id": "0liGkfRvjp",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "rs0CBtZ3f-",
+            "to_id": "iPQdVqHVW4",
+            "type": "relation",
+            "direction": "right",
+            "labels": []
+          },
+          {
+            "from_id": "1UAxOLkzc3",
+            "to_id": "0liGkfRvjp",
+            "type": "relation",
+            "direction": "right",
+            "labels": []
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-17T01:41:37.395430Z",
+        "updated_at": "2023-04-17T01:41:37.395478Z",
+        "lead_time": 542.834,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "674df4b4-32d3-4399-867d-30b0238365c1",
+        "last_action": null,
+        "task": 16,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "a450832e-42_46.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "Children are not the only people within endangered language communities singled out as the agents of language attrition in the media. In communities where endangered languages are spoken fluently by few people, particular individuals are often identified as the cause of the decline of language transmission. Perhaps the most widely discussed example is the (partially fictionalised) story of two speakers, Manuel Segovia and Isidro Velázquez, of the Indigenous language Ayapaneco in Mexico. A 2011 Huffington Post article about the now infamous feud between two men presents the situation as follows (emphasis mine): Though the language has been spoken in what is now Mexico for centuries, there are only two people left who can speak Ayapaneco fluently. Like so many other indigenous languages, it’s at risk of extinction – even more so because, as the Guardian reports, the last two speakers are refusing to talk to each other. This widely circulated and re-worked story was shared from the Huffington Post webpage over 3,500 times, and also became the focal point of a campaign and advertisement series by the British telecommunications company, Vodafone. The two fluent speakers of Ayapaneco are repeatedly identified as the reason Ayapaneco will not be spoken by future generations using a rhetoric that parallels the placement of all agency in language endangerment onto Indigenous communities (see Suslak 2011 for a response and thorough contextualisation of the Ayapaneco media coverage and its consequences). Phrasing like ‘it’s at risk of extinction ... because the last two speakers are refusing to talk to each other’ directly links language dormancy – here problematically called ‘extinction’ (discussed further in section 1.3, below) – to the very late-in-life actions of two individuals whose personal feelings toward each other are of no consequence to a world desperate to extract valuable knowledge hidden within the treasure chest of Indigenous languages. From this external evaluative perspective, Indigenous people owe it to the rest of the world not only to provide aspects of their culture, life, and knowledge of the world to outsiders on demand, but also to be friends with anyone else involved in accommodating those demands."
+    },
+    "meta": {},
+    "created_at": "2023-04-16T22:18:06.944994Z",
+    "updated_at": "2023-04-17T01:41:37.424645Z",
+    "inner_id": 16,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 17,
+    "annotations": [
+      {
+        "id": 28,
+        "completed_by": 2,
+        "result": [],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-17T01:18:36.883743Z",
+        "updated_at": "2023-04-17T01:18:36.883762Z",
+        "lead_time": 11.863,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ccb87c57-752d-40bd-849b-58aeebc16b5a",
+        "last_action": null,
+        "task": 17,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "a450832e-42_46.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "The author of a 2014 BBC article took a similar approach to the title of her article about the language dynamics of an Indigenous community in California: ‘The people who want their language to disappear’ (emphasis mine). In it, she describes a small Native American community who has decided that language documentation by outsiders simply to preserve aspects of the language for scientific goals did not fit with their understanding of how languages should exist. After only three days visiting the community, which includes her relatives, the author, who is from Wales, concludes her discussion with: ‘In the age of mass information, the choice of the Maidu shows that without trust and engagement, valuable knowledge and understanding can be lost forever’ (emphasis mine). Here, the ‘choice’ of the Maidu is combined with an additional extraction in terms of language endangerment and loss disconnected from the conditions of the Maidu community. Such articles never lament the decline or demise of Indigenous sovereignty or autonomy, the loss of political, economic, or geographic stability and power, or even the strong correspondence of language attrition with the actual necropolitical dynamics in marginalised communities. In fact, as I discuss in the next section, Indigenous (language) death is only noteworthy when it is the ‘last’."
+    },
+    "meta": {},
+    "created_at": "2023-04-16T22:18:06.945054Z",
+    "updated_at": "2023-04-17T01:18:36.898386Z",
+    "inner_id": 17,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 18,
+    "annotations": [
+      {
+        "id": 29,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 234,
+              "end": 238,
+              "text": "this",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "U1MNHn5Ntm",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 930,
+              "end": 934,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "Zsjhr-jjua",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-17T01:19:04.827722Z",
+        "updated_at": "2023-04-17T01:19:04.827740Z",
+        "lead_time": 25.424,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "90063300-5822-459b-b9f5-291644e24b98",
+        "last_action": null,
+        "task": 18,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "a450832e-42_46.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "Marie Wilcox, Manuel Segovia, and Isidro Velázquez are all part of an increasingly publically circulating discourse about ‘last speakers’ of Indigenous and endangered languages. Of the rhetorical strategies in news media discussed in this paper, ‘lasting’ may be the most prevalent. Historian and Native studies scholar O’Brien (2010) coins the term lasting for the discursive process through which Indigenous populations are framed within local New England histories as ‘vanishing’ by defining Indians based on a singular characteristic – full blood quantum in the case of nineteenth century New England. Lasting, then is a process of what Irvine & Gal (2000) call iconisation (rhematisation) and erasure. First, specific individuals or characteristics are made iconically representative of larger wholes – be they groups, languages, or cultures. Erasure happens in two concomitant processes: (1) other characteristics or people that could be representative of the larger whole are erased; and (2) the larger whole is erased through the countdown, or ‘lasting’, of those iconic few. Lasting is, then, a specific configuration of hyperbolic valorisation and enumeration."
+    },
+    "meta": {},
+    "created_at": "2023-04-16T22:18:06.945114Z",
+    "updated_at": "2023-04-17T01:19:04.842677Z",
+    "inner_id": 18,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 19,
+    "annotations": [
+      {
+        "id": 30,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 401,
+              "end": 405,
+              "text": "That",
+              "labels": [
+                "PropAnph"
+              ]
+            },
+            "meta": {
+              "text": [
+                "Namely the singular fate to be the last of ones kind\n\nThat find of fact"
+              ]
+            },
+            "id": "47LflZDXoM",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 349,
+              "end": 399,
+              "text": "It is a singular fate to be the last of one’s kind",
+              "labels": [
+                "FactAntd"
+              ]
+            },
+            "meta": {
+              "text": [
+                "I point to the fact : It is a singular fate to be the last of one's kind"
+              ]
+            },
+            "id": "WL4wxQig9E",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "47LflZDXoM",
+            "to_id": "WL4wxQig9E",
+            "type": "relation",
+            "direction": "right",
+            "labels": []
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-17T01:28:03.374502Z",
+        "updated_at": "2023-04-17T01:28:03.374540Z",
+        "lead_time": 536.283,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "426f034a-cf60-4e35-bfb6-bdde39b94114",
+        "last_action": null,
+        "task": 19,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "a450832e-42_46.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "The reporting of last speakers of endangered languages is a centuries-old genre of counting down to the inevitable end of Indigenous people, assuming an unavoidable loss of culture, space, and eventually, existence. Consider the first words of Thurman’s (2015) New Yorker article, ‘A loss for words: Can a dying language be saved?’ (emphasis mine): It is a singular fate to be the last of one’s kind. That is the fate of the men and women, nearly all of them elderly, who are – like Marie Wilcox, of California; Gyani Maiya Sen, of Nepal; Verdena Parker, of Oregon; and Charlie Mungulda, of Australia – the last known speakers of a language."
+    },
+    "meta": {},
+    "created_at": "2023-04-16T22:18:06.945190Z",
+    "updated_at": "2023-04-17T01:28:03.404577Z",
+    "inner_id": 19,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 20,
+    "annotations": [
+      {
+        "id": 31,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 435,
+              "end": 532,
+              "text": "where specific individuals (historical or fictional) were held up as the last of their community,",
+              "labels": [
+                "EvAntd"
+              ]
+            },
+            "meta": {
+              "text": [
+                "I point to the following event: where specific individual were held up as the last of their community"
+              ]
+            },
+            "id": "tjNEmb3_wY",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 633,
+              "end": 637,
+              "text": "This",
+              "labels": [
+                "ProcAnph"
+              ]
+            },
+            "meta": {
+              "text": [
+                "Namely the process where specific individuals were held up as the last of their community\n\nThis process"
+              ]
+            },
+            "id": "eeMBCZEgGa",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 803,
+              "end": 807,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "BsWPEGO8qC",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "eeMBCZEgGa",
+            "to_id": "tjNEmb3_wY",
+            "type": "relation",
+            "direction": "right",
+            "labels": []
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-17T01:31:40.563898Z",
+        "updated_at": "2023-04-17T01:32:04.144295Z",
+        "lead_time": 113.491,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "929fa201-2d0c-4238-86d4-cdac0dc48639",
+        "last_action": null,
+        "task": 20,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "a450832e-42_46.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "While each individual represents a particular type of speaker within much larger communities, they are presented as ‘the last of [their] kind’. Such rhetoric directly reflects 17th century descriptions of the ‘last of’ tribes in New England, as well as popular accounts such as The Last of the Mohicans (Cooper 1888), The Last of the Dogmen (Hershey et al. 1995), and Ishi the Last Yahi: A Documentary History (Heizer & Kroeber 1979), where specific individuals (historical or fictional) were held up as the last of their community, thereby marking the extinction of whole groups of Indians, and all Native Americans more generally. This technique is used to make spectacularly famous (and famous spectacles of) individuals, like Ishi, deemed to be the ‘last’. Thus, National Geographic hosts a webpage that invites readers to ‘See and Hear Last Speakers of Dying Languages’, Wikipedia lists 59 individuals from around the globe in a ‘List of last known speakers of languages’, and, as mentioned above, various online news outlets circulated a story throughout 2011 and subsequent years titled: ‘Last two speakers of dying language refuse to talk to each other’."
+    },
+    "meta": {},
+    "created_at": "2023-04-16T22:18:06.945274Z",
+    "updated_at": "2023-04-17T01:32:04.165478Z",
+    "inner_id": 20,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 21,
+    "annotations": [
+      {
+        "id": 32,
+        "completed_by": 2,
+        "result": [],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-17T01:32:32.336575Z",
+        "updated_at": "2023-04-17T01:32:32.336614Z",
+        "lead_time": 26.234,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "1c1adb14-ebca-41ae-bd84-0025883f063d",
+        "last_action": null,
+        "task": 21,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "a450832e-42_46.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "There are three elements of the lasting of endangered languages that are of particular importance. Firstly, those identified as the ‘last’ speakers of languages are only very specifically understood as ‘speakers’ in a narrowly defined way: native speakers (those who learned the language from birth/childhood); monolingual (speaking only the language of interest); fully fluent (those able to participate in any and all domains of language use and communication in the language); mentally sound; and with a particular heritage (ethnic and/or cultural origins within the communities associated with the language). However, these are not the same criteria applied to the classification of ‘speakers’ of non-endangered languages, and such a narrow restriction of who gets counted as a speaker, or a holder of linguistic expertise and knowledge, erases those who fit one or more, but not all of the listed qualities. As Leonard & Haynes (2010:279) point out, researcher determinations of who is, and is not a speaker ‘without having come to understand what being a speaker means within the cultural context extends the historical colonialist practice of imposing Western ways of knowing without acknowledging that other ways of knowing exist’. Furthermore, narrow, linguistically-derived definitions of speakerhood effectively erase bilingual speakers and learners, and exclude potential members of multilingual communities (De Korne 2017)."
+    },
+    "meta": {},
+    "created_at": "2023-04-16T22:18:06.945336Z",
+    "updated_at": "2023-04-17T01:32:32.364541Z",
+    "inner_id": 21,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  }
+]

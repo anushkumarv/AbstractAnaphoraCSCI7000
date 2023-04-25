@@ -1775,5 +1775,1210 @@
     "project": 1,
     "updated_by": 2,
     "comment_authors": []
+  },
+  {
+    "id": 22,
+    "annotations": [
+      {
+        "id": 34,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 818,
+              "end": 822,
+              "text": "This",
+              "labels": [
+                "SubjAnph"
+              ]
+            },
+            "meta": {
+              "text": [
+                "Namely 'Extinction (0)' being the least, defined as: 'There is no one who can speak or remember ..'\n\nThis assessment"
+              ]
+            },
+            "id": "651doER8Z3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 698,
+              "end": 800,
+              "text": "‘Extinction (0)’ being the least, defined as: ‘There is no one who can speak or remember the language’",
+              "labels": [
+                "SubjAntd"
+              ]
+            },
+            "meta": {
+              "text": [
+                "I point to the following assessment : 'Extinction (0) being the least, defined as: 'There is no on who can speak ...'"
+              ]
+            },
+            "id": "M7eNZ-C17h",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1426,
+              "end": 1430,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "9CvbGE3229",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1416,
+              "end": 1425,
+              "text": "languages",
+              "labels": [
+                "NonAbsAntd"
+              ]
+            },
+            "id": "VUyFn38KJ1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "651doER8Z3",
+            "to_id": "M7eNZ-C17h",
+            "type": "relation",
+            "direction": "right",
+            "labels": []
+          },
+          {
+            "from_id": "9CvbGE3229",
+            "to_id": "VUyFn38KJ1",
+            "type": "relation",
+            "direction": "right",
+            "labels": []
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-24T01:14:47.841091Z",
+        "updated_at": "2023-04-24T01:25:15.109265Z",
+        "lead_time": 639.359,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ff39c39e-dc8a-491d-8424-1ceb5872eeed",
+        "last_action": null,
+        "task": 22,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ee6df8c5-47_54.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "The second element of concern is the direct connection between lasting and the already critiqued discourses of some endangered and Indigenous languages as dead. As enumerations go, ‘last’ is a superlative, and it evokes to the same level of irreversible finality as ‘dead’ (see King & Hermes 2014; Leonard 2008; Meek 2011; Perley 2012). In nearly all classification systems for language vitality and endangerment, the end point is extinction – borrowing from ecological and biological discourses. The UNESCO 2003 Language Vitality and Endangerment Report, for example, divides language endangerment into a six degree scale, with ‘Safe (5)’ being the most robust with no threat of endangerment, and ‘Extinction (0)’ being the least, defined as: ‘There is no one who can speak or remember the language’ (UNESCO 2003:8). This discourse of extinction has been challenged by groups whose languages were previously classified as extinct, such as Myaamia and Wampanoag, but have since re-gained speakers. As Miami linguist and language activist Wesley Y. Leonard (2011:137) points out, the problem with the category of extinct, is that ‘extinct means forever’. Once classified as extinct, as the Myaamia language was, it is extremely difficult for existing language practices to be recognised as legitimate – or even existing at all. In contrast, language activists call for the term ‘dormant’ or ‘sleeping’ to be used for languages that do not currently have living speakers – a semantic frame that assumes such a status may only be temporary. Perley (2012:145) suggests shifting the metaphor from dead to dormant or sleeping is powerful enough to ‘provide new hope for sleeping languages, as community members conceive emergent vitalities for their heritage languages as they awaken them’. I believe that same consideration to the metaphorical framing of ‘last’ may prove equally powerful, and the converse to be equally detrimental."
+    },
+    "meta": {},
+    "created_at": "2023-04-24T01:07:01.105936Z",
+    "updated_at": "2023-04-24T01:25:15.126401Z",
+    "inner_id": 22,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 23,
+    "annotations": [
+      {
+        "id": 35,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 303,
+              "end": 307,
+              "text": "this",
+              "labels": [
+                "PropAnph"
+              ]
+            },
+            "meta": {
+              "text": [
+                "Namely the younger generations depicted as failing to acquire a language\n\nThis kind of circumstance"
+              ]
+            },
+            "id": "YlPHoChfyh",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 232,
+              "end": 298,
+              "text": "‘younger generations are depicted as failing to acquire a language",
+              "labels": [
+                "SubjAntd"
+              ]
+            },
+            "meta": {
+              "text": [
+                "I point to the following assessment : 'younger generations are depicted as failing to acquire a language'"
+              ]
+            },
+            "id": "9pAOzE4w3a",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "YlPHoChfyh",
+            "to_id": "9pAOzE4w3a",
+            "type": "relation",
+            "direction": "right",
+            "labels": []
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-24T01:23:42.588601Z",
+        "updated_at": "2023-04-24T01:28:31.649444Z",
+        "lead_time": 545.592,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "8df4454a-48fa-4426-93d3-19c66ef2f146",
+        "last_action": null,
+        "task": 23,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ee6df8c5-47_54.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "The third element of these rhetorical strategies to consider is that they contribute to ‘depictions of [I]ndigenous languages as shifting toward nonexistence in direct correspondence to shifts across generations of speakers’, where ‘younger generations are depicted as failing to acquire a language, in this case their ancestral or heritage tongue’ (Meek 2011:51). As such, these rhetorics contribute to what Meek identifies within media depictions of Indigenous language dynamics as the ‘doom-and-gloom’ narrative of Indigenous languages as doomed, their communities having ‘failed’ to maintain them (ibid:53). Such tropes leave endangered language communities in seemingly impossible positions. On the one hand, bilingual and multilingual speakers and contexts are usually rendered uncounted, the ‘Invisible Man’ (Wells 1924) in the village of language reclamation. And, when new speakers emerge against great odds in communities already slated as dead, their last speaker gone, those communities must then argue against the archive of coverage to declare their language ‘un-dead’, reminiscent of the pivotal scene in James Whales’ 1931 film adaptation of Mary Shelley’s Frankenstein, during which Dr. Frankenstein declares repeatedly, ‘It’s alive!’ Much like Dr. Frankenstein, Indigenous language communities with re- awakened languages are then tasked with convincing the town mob, or readers of news media, of the realness of their accomplishment’s existence – often with the same effect. Much like the Invisible Man or Frankenstein’s reanimated human, re-awakened languages – with their (often bilingual) new speakers and regular use – cannot completely escape the pervasive expectation of the Vanishing Indian (language) trope, and are perceived as unnatural at best, and, at worst, monstrous."
+    },
+    "meta": {},
+    "created_at": "2023-04-24T01:07:01.106072Z",
+    "updated_at": "2023-04-24T01:28:31.668995Z",
+    "inner_id": 23,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 24,
+    "annotations": [
+      {
+        "id": 36,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 268,
+              "end": 272,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "DOpRvuY6Kp",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 263,
+              "end": 267,
+              "text": "ways",
+              "labels": [
+                "NonAbsAntd"
+              ]
+            },
+            "id": "ZCJVSaOYEA",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "DOpRvuY6Kp",
+            "to_id": "ZCJVSaOYEA",
+            "type": "relation",
+            "direction": "right",
+            "labels": []
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-24T01:30:06.789329Z",
+        "updated_at": "2023-04-24T01:31:01.752401Z",
+        "lead_time": 146.362,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "3da8c99f-3033-4497-a574-bb077e32ff5f",
+        "last_action": null,
+        "task": 24,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ee6df8c5-47_54.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "These complex and ever-changing language and identity dynamics highlight current tensions in efforts to draw attention to barriers to Indigenous language use and transmission. They also demonstrate the importance of engaging with endangered language rhetorics in ways that do not replicate pre-existing discourses that may ultimately maintain settler colonial desires to quantify, regulate, and erase Indigenous communities. It should be noted that the rhetorical strategies of ‘linguistic extraction’, ‘the erasure of colonial agency’, and ‘lasting’ can probably all be found to some extent within Indigenous and endangered language communities themselves. However, they are not the only ways in which such communities understand, or represent, language endangerment and language reclamation efforts."
+    },
+    "meta": {},
+    "created_at": "2023-04-24T01:07:01.106165Z",
+    "updated_at": "2023-04-24T01:31:01.772360Z",
+    "inner_id": 24,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 25,
+    "annotations": [
+      {
+        "id": 37,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 1002,
+              "end": 1006,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "dsszBQAdij",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 953,
+              "end": 1001,
+              "text": "definitions of language contexts and communities",
+              "labels": [
+                "NonAbsAntd"
+              ]
+            },
+            "id": "topbavo-7x",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "dsszBQAdij",
+            "to_id": "topbavo-7x",
+            "type": "relation",
+            "direction": "right",
+            "labels": []
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-24T01:40:57.915593Z",
+        "updated_at": "2023-04-24T01:41:59.110283Z",
+        "lead_time": 653.918,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "c50ec58f-1dc9-49cd-af9d-99b312eff07f",
+        "last_action": null,
+        "task": 25,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ee6df8c5-47_54.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "In this section, I ‘listen’ to an alternative body of rhetoric produced within endangered language communities, by Indigenous scholars, and by ethnographers of Indigenous and endangered language contexts, and discuss what it might offer scholars and language activists. The examples in this section provide direct alternatives to the common rhetorics discussed above: they are organised around each of the strategies they counter. Firstly, the centering of languages within social contexts, individual lives, and embodied experiences provides counter-strategies to linguistic extraction. Secondly, the explicit discussion of the ethno-national histories and political realities that have shaped and continue to shape language realities works against the erasure of colonial agency. Finally, by including a wide range of speakers and potential language users (including bilingual speakers, language learners, and others supporting language reclamation), definitions of language contexts and communities that emphasise what Vizenor (1999) terms ‘survivance’5 are used in favor of narratives of lasting. However, these counter-narratives and framings, and resistive strategies often occur concomitantly; in other words, more than one trope may be countered within the same statement, practice, or policy. Alternatives to models favoring linguistic extraction also usually emphasise not only the historical and social causes of language endangerment, but also the very personal impacts it has on Indigenous and endangered language communities left out of extractive representations of language dynamics. When discussing language endangerment, the majority of endangered language communities with which I have had contact are quick to situate their languages and linguistic realities within historical, social, and geopolitical contexts; they point out the role of colonial governments in the historical and current precarious states of their languages. They also include a wide variety of relevant participants in those language dynamics beyond just first-language speakers."
+    },
+    "meta": {},
+    "created_at": "2023-04-24T01:07:01.106266Z",
+    "updated_at": "2023-04-24T01:41:59.130300Z",
+    "inner_id": 25,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 26,
+    "annotations": [
+      {
+        "id": 38,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 962,
+              "end": 966,
+              "text": "this",
+              "labels": [
+                "SubjAnph"
+              ]
+            },
+            "meta": {
+              "text": [
+                "Namely that language is a product and function of the mind and therefore not the body\n\nthis opinion "
+              ]
+            },
+            "id": "kR8ue1JcwF",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 836,
+              "end": 911,
+              "text": "language is a product and function of the mind (and therefore not the body)",
+              "labels": [
+                "SubjAntd"
+              ]
+            },
+            "meta": {
+              "text": [
+                "I point to the following opinion of linguists: language is a product and function of the mind"
+              ]
+            },
+            "id": "p4tSeAW4Tp",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1305,
+              "end": 1522,
+              "text": "Far too often, they involve discussing, and, more egregiously, evaluating language projects and the communities in which they occur without consideration of the lived realities of those in the middle of those projects",
+              "labels": [
+                "ProcAntd"
+              ]
+            },
+            "meta": {
+              "text": [
+                "I point to the following activity: linguists discuss indigenous languages without considering the lived realities of the people"
+              ]
+            },
+            "id": "QvYpDKdF3_",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1524,
+              "end": 1528,
+              "text": "This",
+              "labels": [
+                "ProcAnph"
+              ]
+            },
+            "meta": {
+              "text": [
+                "Namely the practice of not considering the lived realities of people \n\nthis activity"
+              ]
+            },
+            "id": "qgG2zYY1zs",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1816,
+              "end": 1820,
+              "text": "this",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "jrTpmsE2HL",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1640,
+              "end": 1790,
+              "text": "participants are parents, partners, community organizers, and so on, who must carve out time for, and physically get to, language classes and programs",
+              "labels": [
+                "NonAbsAntd"
+              ]
+            },
+            "id": "NSJy3gsF0g",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "kR8ue1JcwF",
+            "to_id": "p4tSeAW4Tp",
+            "type": "relation",
+            "direction": "right",
+            "labels": []
+          },
+          {
+            "from_id": "qgG2zYY1zs",
+            "to_id": "QvYpDKdF3_",
+            "type": "relation",
+            "direction": "right",
+            "labels": []
+          },
+          {
+            "from_id": "jrTpmsE2HL",
+            "to_id": "NSJy3gsF0g",
+            "type": "relation",
+            "direction": "right",
+            "labels": []
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-25T17:23:30.582729Z",
+        "updated_at": "2023-04-25T17:45:37.693485Z",
+        "lead_time": 880.6229999999999,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b14c7305-ca44-4ae4-b76f-2d19a427fa55",
+        "last_action": null,
+        "task": 26,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ee6df8c5-47_54.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "Indigenous communities and scholars working in language documentation and reclamation regularly emphasise the importance of contextualising endangered languages, or the description, in detail, of the robust geographic, linguistic, spiritual, and social dynamics of languages, of language activists, and of language reclamation projects. For example, Leonard (2017) addresses the contextualizing power of using community definitions of critical terms by showing how accepted definitions of ‘language’ within academia (and the interconnected areas of dictionaries, etc.) can differ dramatically from the definitions provided by Indigenous people who work closely with language(s). Here he questions assumptions in Linguistics that separate the body from the mind, stemming from the field’s origin in the Western philosophical canon where language is a product and function of the mind (and therefore not the body). The Indigenous people he interviews do not share this definition of language, and, critically, do not necessarily have one definition. Instead, they frame language as a basket, a life narrative, and even the key to the afterlife. Such Indigenous definitions are critical to broader discussions of language, particularly when the languages under consideration are from Indigenous communities. Far too often, they involve discussing, and, more egregiously, evaluating language projects and the communities in which they occur without consideration of the lived realities of those in the middle of those projects. This practice leads to arm-chair theorising of what could, would, and should be done in ways that often forget that participants are parents, partners, community organizers, and so on, who must carve out time for, and physically get to, language classes and programs. Perspectives which take this personal reality into account, such as Hornberger’s (2017) in-depth portraits of three Indigenous language activists, help to contextualise language reclamation beyond the dominant trend of focusing on analysing grammatical features or enumerating speakers."
+    },
+    "meta": {},
+    "created_at": "2023-04-24T01:07:01.106365Z",
+    "updated_at": "2023-04-25T17:45:37.713559Z",
+    "inner_id": 26,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 27,
+    "annotations": [
+      {
+        "id": 39,
+        "completed_by": 2,
+        "result": [],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-25T17:49:50.251509Z",
+        "updated_at": "2023-04-25T17:49:50.251549Z",
+        "lead_time": 250.125,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "dbef8099-d68c-4135-bdee-282ac6b231d1",
+        "last_action": null,
+        "task": 27,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ee6df8c5-47_54.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "The rhetorical strategies found in the work of authors in this volume are echoed by other members of Indigenous and endangered language communities who offer repeated calls to situate language as personal – as located within the Indigenous self. In this area, I am reminded of the piece by Mojave poet, Natalie Diaz (2014), entitled If what I mean is hummingbird, if what I mean is fall into my mouth which begins: In Mojave, the words we use to describe our emotions are literally dragged through our hearts before we speak them – they begin with the prefix wa-, a shortened form of iiwa, our word for heart and chest. So we will never lightly ask, How are you? Instead, we ask very directly about your heart. We have one way to say that our hearts are good, and as you might imagine if you’ve ever read a history book or lived in this world, we have many ways to say our hearts are hurting. The government came to us first in the form of the Cavalry, then the military fort (which is why we are called Fort Mojave), and finally the boarding school. The government didn’t simply ‘teach’ us English in those boarding schools – they systematically and methodically took our Mojave language. They took all the words we had. They even took our names. Especially, they took our words for the ways we love – in silencing us, they silenced the ways we told each other about our hearts."
+    },
+    "meta": {},
+    "created_at": "2023-04-24T01:07:01.106458Z",
+    "updated_at": "2023-04-25T17:49:50.276846Z",
+    "inner_id": 27,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 28,
+    "annotations": [
+      {
+        "id": 40,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 358,
+              "end": 362,
+              "text": "This",
+              "labels": [
+                "EvAnph"
+              ]
+            },
+            "meta": {
+              "text": [
+                "Namely positioning language within bodies and lived experiences \n\nThis event"
+              ]
+            },
+            "id": "3CPsSEvpQY",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 0,
+              "end": 138,
+              "text": "Contextualisation here takes the next step of positioning language within bodies and lived experiences from which they cannot be extracted",
+              "labels": [
+                "EvAntd"
+              ]
+            },
+            "meta": {
+              "text": [
+                "I point to the following event: Contextualisation takes the next step of positioning language within bodies and lived experiences of people"
+              ]
+            },
+            "id": "1MQ4piGnSx",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 696,
+              "end": 700,
+              "text": "that",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "tRef5ydvpg",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 656,
+              "end": 674,
+              "text": "a three inch scar,",
+              "labels": [
+                "NonAbsAntd"
+              ]
+            },
+            "id": "jdWYwsLud0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "3CPsSEvpQY",
+            "to_id": "1MQ4piGnSx",
+            "type": "relation",
+            "direction": "right",
+            "labels": []
+          },
+          {
+            "from_id": "tRef5ydvpg",
+            "to_id": "jdWYwsLud0",
+            "type": "relation",
+            "direction": "right",
+            "labels": []
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-25T18:13:08.928373Z",
+        "updated_at": "2023-04-25T18:13:08.928428Z",
+        "lead_time": 35.983,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "97faf7c7-4636-4ad4-8ff0-7d218f80a2d8",
+        "last_action": null,
+        "task": 28,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ee6df8c5-47_54.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "Contextualisation here takes the next step of positioning language within bodies and lived experiences from which they cannot be extracted. In exploring how certain feelings are expressed in Mojave, Diaz describes multiple impactful experiences the community had with the U.S. military and government policies and their very personal and linguistic effects. This contextualisation resonates with moments in my own research. For example, during an interview with a first language speaker of Chickasaw in 2009, I asked the question ‘what was it like to grow up speaking the language?’ His response was to shift in his chair and pull up his shirt, showing me a three inch scar, now six decades old, that was the result of a physical attack by three non-Native older boys who heard him speaking to his sister in their language. For this speaker and others, violence and struggle are not metaphors in understanding language shift and reclamation, and the body is not only a machine that produces and perceives semiotic codes; rather, it is the literal battleground on which conflicts are waged. Language, for Natalie Diaz and so many others, is ‘pulled through the heart’."
+    },
+    "meta": {},
+    "created_at": "2023-04-24T01:07:01.106549Z",
+    "updated_at": "2023-04-25T18:13:08.955841Z",
+    "inner_id": 28,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 29,
+    "annotations": [
+      {
+        "id": 41,
+        "completed_by": 2,
+        "result": [],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-25T18:17:23.848284Z",
+        "updated_at": "2023-04-25T18:17:23.848319Z",
+        "lead_time": 252.721,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "6da90e1b-549f-437e-8a47-845ba17ce5db",
+        "last_action": null,
+        "task": 29,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ee6df8c5-47_54.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "Furthermore, as broader ideologies shift increasingly toward valuing Indigenous languages, many Indigenous people articulate the necessity of ensuring that the historical dynamics that associated speaking those same languages with shame, fear, and pain are not forgotten. They provide rhetorical strategies that explicitly locate language endangerment within colonial processes – often to deflect rhetorics of blame directed at individuals, generations, or even entire communities framed as agentively causing the endangered status of their own languages or negative ideologies associated with them. De Korne (2017) demonstrates how Zapotec language teachers in Mexico counter the disjunctures that emerge from the extraction of languages both from other languages and from the historical and current contexts in which languages overlap. Much like courses that teach students that English is a Germanic language with a direct (and singular) lineage from Middle and Old English, rather than an almost textbook example of a creole formed through the merging of grammatical structure from Germanic and vocabulary from French, Latin, Greek, and a plethora of Indigenous languages, ‘true’ languages in Mexico are imagined as distinct and easily isolated from each other, and Indigenous languages are quickly dismissed as ‘inauthentic’ for containing loan words or anything that might be considered ‘code-mixing’. Of course, these purist language ideologies are never equilaterally applied: Zapotec is deauthenticated for its contact with other colonial languages, while Spanish, with which it is usually contrasted, is authenticated as a ‘true language’ despite its own partial origins in Arabic, Greek, and – yes – Indigenous languages, including Zapotec. Instead, language activists not only teach Indigenous languages, but also make visible the disjunctures created through colonial agendas through which no actual speakers of Indigenous languages approximate the imagined ‘pure’ language (because these languages have never occurred in the monolingual vacuum in which they are imagined)."
+    },
+    "meta": {},
+    "created_at": "2023-04-24T01:07:01.106647Z",
+    "updated_at": "2023-04-25T18:17:23.875949Z",
+    "inner_id": 29,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 30,
+    "annotations": [
+      {
+        "id": 42,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 1214,
+              "end": 1220,
+              "text": "That’s",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "iWc3-w8i7z",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1138,
+              "end": 1213,
+              "text": "it was a White man’s world and you need to learn the ways of the White man.",
+              "labels": [
+                "NonAbsAntd"
+              ]
+            },
+            "id": "ss6BCXk8lT",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "iWc3-w8i7z",
+            "to_id": "ss6BCXk8lT",
+            "type": "relation",
+            "direction": "right",
+            "labels": []
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-25T19:22:31.157184Z",
+        "updated_at": "2023-04-25T19:22:31.157234Z",
+        "lead_time": 3903.993,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "9b855013-fa78-453b-a91b-6d7a0d87a336",
+        "last_action": null,
+        "task": 30,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ee6df8c5-47_54.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "Locating language endangerment within colonial processes may also take the form of new genres of stories such as those connected to schooling experiences. Within my own research, I repeatedly encountered narratives such as the one below, from a Chickasaw woman whose family was involved in language reclamation across multiple generations – from parents who are fluent speakers, to a daughter and grandchildren currently learning the language. During an interview in Oklahoma in 2011, she responded to a broad question about her own experience with the Chickasaw language by providing the experiences of her mother and older generations in the community: My mom didn’t ... you’ve probably heard this story down the line before ... Mom didn’t want us learning Chickasaw. She didn’t want us to learn the language. She spoke only Chickasaw when she went to school, and she went through a lot of embarrassment of, uh, people talking about her, making fun of her, and she learned English on her own in school. And it was really hard on her. So she didn’t, Mom didn’t want us goin’ through the embarrassment of what she went through – she said it was a White man’s world and you need to learn the ways of the White man. That’s why she never encouraged us to learn at all."
+    },
+    "meta": {},
+    "created_at": "2023-04-24T01:07:01.106739Z",
+    "updated_at": "2023-04-25T19:22:31.186827Z",
+    "inner_id": 30,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 31,
+    "annotations": [
+      {
+        "id": 43,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 1063,
+              "end": 1155,
+              "text": "They became alienated from their families, their communities, and ultimately from themselves",
+              "labels": [
+                "EvAntd"
+              ]
+            },
+            "id": "bPRtgWBjFz",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1157,
+              "end": 1161,
+              "text": "This",
+              "labels": [
+                "ProcAnph"
+              ]
+            },
+            "meta": {
+              "text": [
+                "Namely the event where aboriginal students became alienated from their families, communities ...\n\nThis process"
+              ]
+            },
+            "id": "GvW-TRjsvz",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "GvW-TRjsvz",
+            "to_id": "bPRtgWBjFz",
+            "type": "relation",
+            "direction": "right",
+            "labels": []
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-25T19:26:26.365746Z",
+        "updated_at": "2023-04-25T19:26:26.365782Z",
+        "lead_time": 232.74,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "63054634-1531-4855-9a26-b491f39853c1",
+        "last_action": null,
+        "task": 31,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ee6df8c5-47_54.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "As she notes in her comment ‘you’ve probably heard this story down the line before’, narratives like hers are a very typical means of remembering the context of Indigenous language realities for previous generations as well as highlighting the very real circumstances that contextualise language shift. Similar narratives emerged in the recently completed Truth and Reconciliation Report, which details the impact of Canada’s residential school era on Indigenous communities. The report (Vol. 5:104-105) notes: While the children taken to the schools tried to retain as much of their languages and cultures as they could, the multigenerational battle waged against them was too hard to resist. While initially Survivors could return to communities where their languages and cultures were still alive and vibrant, with each successive generation of Survivors, there was a greater weakening of community cultural and linguistic strength. More often than not, the schools prevailed. Aboriginal students were forced to abandon their languages and cultural practices. They became alienated from their families, their communities, and ultimately from themselves. This damage was passed down through generations, as former students found themselves unable or unwilling to teach their own children Aboriginal languages and cultural ways."
+    },
+    "meta": {},
+    "created_at": "2023-04-24T01:07:01.106831Z",
+    "updated_at": "2023-04-25T19:26:26.391404Z",
+    "inner_id": 31,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 32,
+    "annotations": [
+      {
+        "id": 44,
+        "completed_by": 2,
+        "result": [],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-25T19:27:04.942976Z",
+        "updated_at": "2023-04-25T19:27:04.943023Z",
+        "lead_time": 19.095,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "d1872cc8-8851-4931-87a9-3907c86ddf3f",
+        "last_action": null,
+        "task": 32,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ee6df8c5-47_54.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "Clearly, these stories of language shift offer an important counter-narrative to discourses that suggest that members of endangered language communities ‘simply abandon’ their languages, or that language shift and endangerment happen randomly throughout the world."
+    },
+    "meta": {},
+    "created_at": "2023-04-24T01:07:01.106914Z",
+    "updated_at": "2023-04-25T19:27:04.972489Z",
+    "inner_id": 32,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 33,
+    "annotations": [
+      {
+        "id": 45,
+        "completed_by": 2,
+        "result": [
+          {
+            "value": {
+              "start": 1299,
+              "end": 1303,
+              "text": "This",
+              "labels": [
+                "NonAbsAnph"
+              ]
+            },
+            "id": "oksABx30LY",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 1269,
+              "end": 1297,
+              "text": "new contexts of language use",
+              "labels": [
+                "NonAbsAntd"
+              ]
+            },
+            "id": "HO3-KPqUiQ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "from_id": "oksABx30LY",
+            "to_id": "HO3-KPqUiQ",
+            "type": "relation",
+            "direction": "right",
+            "labels": []
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-25T19:41:12.936280Z",
+        "updated_at": "2023-04-25T19:41:12.936329Z",
+        "lead_time": 846.827,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "83b8d2a7-7117-4f16-8099-a3e2388bf321",
+        "last_action": null,
+        "task": 33,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ee6df8c5-47_54.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "Community efforts and narratives also offer counter-strategies to the dominant trend of lasting, which assumes an inevitable ‘count-down’ and end to endangered and Indigenous language speakers (Muehlmann 2012) and limited definitions of both ‘speaker’ and the contexts of language use and reclamation. From Wendat (Lukaniec 2015) to Miami (Baldwin et al. 2013; Leonard 2008) to Wampanoag (baird 2013), researchers and Indigenous communities are demonstrating that languages can ‘awaken’ – even after periods of dormancy. These examples also demonstrate that individuals, groups, and communities can ‘save’ languages, not just lose them as popular media representation suggests. They also provide examples where declarations of language ‘extinction’ or ‘dormancy’ prove overly enthusiastic, such as those that declared Plains Indian Sign Language long-dormant, when in fact it was – and still is – known and used within a variety of communities throughout the United States and Canada (Farnell 1995). We are increasingly offered evidence that endangered language communities can, and do, pull together maintained community knowledge with language documentation resources and comparative linguistic analysis of related languages to create new generations of speakers and new contexts of language use. This includes genres – old and new – within Indigenous and endangered language communities often erased by dominant rhetorics of language endangerment focused exclusively on quantifications of ‘speakers’ and ‘languages’. The contributors to Kroskrity (2012), for example, each highlight the role of narrative and lesser-discussed genres like poetry in the language maintenance and reclamation efforts of Indigenous communities."
+    },
+    "meta": {},
+    "created_at": "2023-04-24T01:07:01.107021Z",
+    "updated_at": "2023-04-25T19:41:12.965630Z",
+    "inner_id": 33,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 34,
+    "annotations": [
+      {
+        "id": 46,
+        "completed_by": 2,
+        "result": [],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-25T19:41:35.740283Z",
+        "updated_at": "2023-04-25T19:41:35.740335Z",
+        "lead_time": 19.688,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "d4e43b45-0689-46ff-8196-219135538f2e",
+        "last_action": null,
+        "task": 34,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ee6df8c5-47_54.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "In these and other contexts, ethnographic examinations of language reclamation efforts have demonstrated that community language dynamics should include all participants: speakers, as well as the people actively learning, those supportive of language reclamation efforts, and even those directly connected to speakers and learners – a group I call ‘language affiliates’ (Davis 2016). Ferguson (2010) also observed that language learning and speaking dynamics were reinforced and maintained by both teachers and students during her ethnography of elementary school Dän K'è language classes in Whitehorse, Yukon. Hermes & Engman (2017) found positive effects from a similarly broad grouping of critical participants in their five- year Anishinaabemowin documentation and description project, which included the (sometimes overlapping) categories of community members, researchers, a non-Indigenous linguist, and Indigenous and non-Indigenous second language learners. Equally important in this context is the demonstration that the identity categories of community members and language learners may, through experiences in language reclamation projects, become language transcribers, analysts, and stronger language experts over the course of months and years. In these contexts, language reclamation is being done by groups of people, sometimes by entire communities, rather than solely by the individual monolingual or fluent speakers represented in most speaker counts."
+    },
+    "meta": {},
+    "created_at": "2023-04-24T01:07:01.107125Z",
+    "updated_at": "2023-04-25T19:41:35.768735Z",
+    "inner_id": 34,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 35,
+    "annotations": [
+      {
+        "id": 48,
+        "completed_by": 2,
+        "result": [],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-25T19:42:37.546639Z",
+        "updated_at": "2023-04-25T19:42:37.546688Z",
+        "lead_time": 32.243,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "b5f74cfa-f75a-4ead-a31b-956807231661",
+        "last_action": null,
+        "task": 35,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ee6df8c5-47_54.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "The questions driving conversations in mainstream media around language endangerment are predominantly: Why have languages become endangered? Why has intergenerational language transmission dwindled and stopped? Why are Indigenous people switching from heritage language(s) to more global languages? In fact, this rhetorical framing is itself telling. It positions language loss as the exception, the marked outcome in the total possible realities. As linguistic anthropologist Shulist (2016:94) notes, ‘if the prediction of widespread language “extinction” ... evokes a view of one possible future, then efforts aimed at fighting against this prediction involve imagining, and working to create, an alternative one’. But what does imagining alternative futures look like? What happens when, knowing the extensive history of linguistic violence faced by Indigenous peoples globally, we expect that any Indigenous language is at risk? If we draw on the concept of Native survivance, defined by Vizenor (2008:11) as ‘an active resistance and repudiation of dominance, obtrusive themes of tragedy, nihilism, and victimry’ when discussing Indigenous peoples, particularly in the telling of stories about language endangerment6, here are the kinds of questions we might ask: How is it even possible that Indigenous and endangered languages have been maintained for as long as they have been? What socio-cultural, historical, and political factors have facilitated language maintenance and use? What do examples of language maintenance under such extreme conditions teach us about potential strategies for continued language reclamation in our communities? What incredible levels of dedication and persistence are demonstrated by individuals, families, and communities engaging in language reclamation?"
+    },
+    "meta": {},
+    "created_at": "2023-04-24T01:07:01.107221Z",
+    "updated_at": "2023-04-25T19:42:37.574475Z",
+    "inner_id": 35,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 36,
+    "annotations": [
+      {
+        "id": 47,
+        "completed_by": 2,
+        "result": [],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2023-04-25T19:42:03.413387Z",
+        "updated_at": "2023-04-25T19:42:03.413426Z",
+        "lead_time": 11.062,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "368f042b-544f-4c2f-aaaa-12d47123a847",
+        "last_action": null,
+        "task": 36,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ee6df8c5-47_54.txt",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "corefText": "Overwhelmingly discourses of endangered and Indigenous language failure (Meek 2011) are largely attributable to what questions are asked, how, and by whom. The differences between the proposed questions above and the questions being answered in dominant rhetorics about endangered languages represent what Meek (2010:50) calls ‘sociolinguistic disjunctures’, or ‘points of discontinuity or contradiction, moments where practices and ideas about language diverge’. In these cases, the disjunctures exist between members of Indigenous communities, their languages, and broader institutionalised ideologies and representations about those communities and languages. Such representations or dominant discourses reach far greater circulation within broader publics, and may therefore disproportionately shape both public opinion and policy. However, as sociolinguistic disjunctures, the differences highlighted in this article also have the ability to ‘create opportunities for resetting patterns, for reschematizing some system of semiotic value, for transforming everyday communicative practices and expectations’ (Meek 2010:51). A rhetoric of Indigenous language survivance, then, would focus on Indigenous languages as elements embedded in communities, histories, and spaces rather than extracted from them. It would recognise that language endangerment does not occur in sociopolitical vacuums, and that to present it as such may promote the assignment of responsibility for contemporary realities on those who often have the least agency. Finally, it would recognise that language realities are contained within entire groups associated with a given language or languages, not just those identified as particular types of speakers. This resetting of patterns may be supported by asking new questions and reframing old stories in ways that demonstrate the full depth of the challenges facing Indigenous communities through recent years, decades, and centuries, while also highlighting the incredible extent of Indigenous language and cultural maintenance against all odds as a decolonial act of breath-taking resistance, resilience, and survivance."
+    },
+    "meta": {},
+    "created_at": "2023-04-24T01:07:01.107333Z",
+    "updated_at": "2023-04-25T19:42:03.440744Z",
+    "inner_id": 36,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
   }
 ]

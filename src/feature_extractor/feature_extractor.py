@@ -7,9 +7,6 @@ from helper import Helper
 from tqdm import tqdm
 
 
-label_non_abs_anph_set, label_non_abs_antd_set, label_abs_anph_set, label_abs_antd_set = get_lables()
-
-
 def load_data(filename :str) -> List:
     with open(filename) as f:
         json_data = f.read()
@@ -38,22 +35,20 @@ def parse_json(label_std_data :List):
             pronoun = helper.pronoun_of_anph()
             token_pos = helper.relative_pos_anph_sent()
             verb_presence = helper.get_verb_presence()
+            parent_lemma = helper.get_parent_lemma()
+            negated_parent = helper.get_negated_parent()
+            parent_transitivity = helper.get_parent_transitivity()
             pronoun_path = helper.get_pronoun_path()
-
-
-            # label_anph_obj = build_labels_dict.get(from_id).get("value")
-            # label_antd_obj = build_labels_dict.get(to_id).get("value")
-            # pronoun = pronoun_of_anph(build_labels_dict.get(from_id))
-            # token_pos = relative_pos_anph_sent(datapoint.get("data").get("corefText"), label_anph_obj.get("start"), label_anph_obj.get("end"))
-            # label_anph = label_anph_obj.get("labels")[0]
-            # label_antd = label_antd_obj.get("labels")[0]
-            # abs_anph = 1 if label_anph in label_abs_anph_set else 0
-            # temp.append(label_anph)
-            # temp.append(label_antd)
-            # temp.append(abs_anph)
+            abs_anph = helper.is_abstract_anaphora()
+            temp.append(pronoun)
+            temp.append(token_pos)
+            temp.append(verb_presence)
+            temp.append(parent_lemma)
+            temp.append(negated_parent)
+            temp.append(parent_transitivity)
+            temp.append(pronoun_path)
+            temp.append(abs_anph)
             data.append(temp)
-        
-        break
 
     return data
 

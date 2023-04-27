@@ -1,8 +1,11 @@
 import textacy
 import spacy
 
+from labels import get_lables
+
 nlp = spacy.load("en_core_web_sm")
 
+label_non_abs_anph_set, label_non_abs_antd_set, label_abs_anph_set, label_abs_antd_set = get_lables()
 
 class Helper:
     def __init__(self, label: dict, datapoint: dict, label_anph_obj: dict, label_antd_obj: dict) -> None:
@@ -18,52 +21,40 @@ class Helper:
     def pronoun_of_anph(self) -> str:
         return self.label.get("value").get("text")
 
-    def sents_before_anph(self) -> int:
-        count = 0
-        left = self.anph_start_pos
-        while left != -1:
-            if self.data[left] == '.':
-                count += 1
-            left -= 1
-        return count
-        
-    def sents_after_anph(self) -> int:
-        count = 0
-        right = self.anph_start_pos
-        while right != len(self.data):
-            if self.data[right] == '.':
-                count += 1
-            right += 1
-        return count - 1
+    def anph_sent_id(self) -> int:
+        sents = list(self.doc.sents)
+        start = 0
+        for i in range(len(sents)):
+            end = start + len(str(sents[i]))
+            if self.anph_start_pos >= start  and self.anph_start_pos <= end:
+                return i
+            start = end + 1
+        return len(sents) - 1
+
 
     def start_idx_anph_relative(self) -> int:
-        left = self.anph_start_pos
-        while left != -1 and self.data[left] != '.':
-            left -= 1
-        if left == -1:
-            return self.anph_start_pos
-        elif self.data[left] == '.' and self.data[left+1] == ' ':
-            return self.anph_start_pos - left - 2
-        else:
-            return self.anph_start_pos - left - 1
+        sents = list(self.doc.sents)
+        anph_sent_id = self.anph_sent_id()
+        start = sum([len(str(sents[i])) + 1 for i in range(anph_sent_id)])
+        return self.anph_start_pos - start
 
 
     def relative_pos_anph_sent(self) -> int:
         sents = list(self.doc.sents)
-        anph_sent_id = self.sents_before_anph()
+        anph_sent_id = self.anph_sent_id()
         anph_sent = str(sents[anph_sent_id])
         relative_idx = self.start_idx_anph_relative()
         count = 0
         for i in range(relative_idx, -1, -1):
-            if anph_sent[i] == ' ':
-                count += 1
+                if anph_sent[i] == ' ':
+                    count += 1
 
         return count + 1
 
         
     def get_verb_presence(self) -> int:
         sents = list(self.doc.sents)
-        anph_sent_id = self.sents_before_anph()
+        anph_sent_id = self.anph_sent_id()
         patterns = [{"POS": "VERB"}]
         count = 0
         for i in range(anph_sent_id -1, -1, -1):
@@ -74,7 +65,7 @@ class Helper:
     
     def get_pronoun_path(self) -> str:
         sents = list(self.doc.sents)
-        anph_sent_id = self.sents_before_anph()
+        anph_sent_id = self.anph_sent_id()
         anph = self.pronoun_of_anph()
         for token in sents[anph_sent_id]:
             if token.dep_ == 'ROOT':
@@ -82,9 +73,40 @@ class Helper:
                     if str(child) == anph:
                         return child.dep_
         return ''
-
-
-
-
-
+    
+    def get_parent_lemma(self) -> str:
+        sents = list(self.doc.sents)
+        anph_sent_id = self.anph_sent_id()
+        anph = self.pronoun_of_anph()
+        for token in sents[anph_sent_id]:
+            if token.dep_ == 'ROOT':
+                return token.lemma_
+            
+        return ''
+    
+    def get_negated_parent(self) -> bool:
+        sents = list(self.doc.sents)
+        anph_sent_id = self.anph_sent_id()
+        anph = self.pronoun_of_anph()
+        for token in sents[anph_sent_id]:
+            if token.dep_ == 'ROOT':
+                for child in token.children:
+                    if child.dep_ == 'neg':
+                        return True
+        return False
+    
+    def get_parent_transitivity(self) -> bool:
+        sents = list(self.doc.sents)
+        anph_sent_id = self.anph_sent_id()
+        anph = self.pronoun_of_anph()
+        for token in sents[anph_sent_id]:
+            if token.dep_ == 'ROOT':
+                for child in token.children:
+                    if "obj" in child.dep_:
+                        return True
         
+        return False
+    
+    def is_abstract_anaphora(self) -> bool:
+        return True if self.label_anph_obj.get("labels")[0] in label_abs_anph_set else False
+    

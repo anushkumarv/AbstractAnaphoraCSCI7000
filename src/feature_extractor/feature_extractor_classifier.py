@@ -3,7 +3,7 @@ import json
 import pandas as pd
 
 from labels import get_lables
-from helper import Helper
+from helper import HelperClassifier
 
 from tqdm import tqdm
 
@@ -32,7 +32,7 @@ def parse_json(label_std_data :List):
             temp = list()
             from_id = relation.get("from_id")
             to_id = relation.get("to_id")
-            helper = Helper(build_labels_dict.get(from_id), datapoint, build_labels_dict.get(from_id).get("value"), build_labels_dict.get(to_id).get("value"))
+            helper = HelperClassifier(build_labels_dict.get(from_id), datapoint, build_labels_dict.get(from_id).get("value"), build_labels_dict.get(to_id).get("value"))
             pronoun = helper.pronoun_of_anph()
             token_pos = helper.relative_pos_anph_sent()
             verb_presence = helper.get_verb_presence()

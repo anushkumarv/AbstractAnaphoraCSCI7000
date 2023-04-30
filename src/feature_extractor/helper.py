@@ -1,5 +1,7 @@
 import textacy
 import spacy
+from nltk.tokenize import word_tokenize
+from typing import Union
 
 from labels import get_lables
 
@@ -17,32 +19,29 @@ class Helper:
         self.anph_start_pos = self.label_anph_obj.get("start")
         self.anph_end_pos = self.label_anph_obj.get("end")
         self.doc = nlp(datapoint.get("data").get("corefText"))
+        self.sents = list(self.doc.sents)
+        self.anph_sent_id = self.get_anph_sent_id()
 
     def pronoun_of_anph(self) -> str:
-        return self.label.get("value").get("text")
+        return word_tokenize(self.label.get("value").get("text"))[0]
 
-    def anph_sent_id(self) -> int:
-        sents = list(self.doc.sents)
+    def get_anph_sent_id(self) -> int:
         start = 0
-        for i in range(len(sents)):
-            end = start + len(str(sents[i]))
+        for i in range(len(self.sents)):
+            end = start + len(str(self.sents[i]))
             if self.anph_start_pos >= start  and self.anph_start_pos <= end:
                 return i
             start = end + 1
-        return len(sents) - 1
+        return len(self.sents) - 1
 
 
     def start_idx_anph_relative(self) -> int:
-        sents = list(self.doc.sents)
-        anph_sent_id = self.anph_sent_id()
-        start = sum([len(str(sents[i])) + 1 for i in range(anph_sent_id)])
+        start = sum([len(str(self.sents[i])) + 1 for i in range(self.anph_sent_id)])
         return self.anph_start_pos - start
 
 
     def relative_pos_anph_sent(self) -> int:
-        sents = list(self.doc.sents)
-        anph_sent_id = self.anph_sent_id()
-        anph_sent = str(sents[anph_sent_id])
+        anph_sent = str(self.sents[self.anph_sent_id])
         relative_idx = self.start_idx_anph_relative()
         count = 0
         for i in range(relative_idx, -1, -1):
@@ -50,24 +49,19 @@ class Helper:
                     count += 1
 
         return count + 1
-
         
     def get_verb_presence(self) -> int:
-        sents = list(self.doc.sents)
-        anph_sent_id = self.anph_sent_id()
         patterns = [{"POS": "VERB"}]
         count = 0
-        for i in range(anph_sent_id -1, -1, -1):
-            verbs = textacy.extract.token_matches(sents[i], patterns=patterns)
+        for i in range(self.anph_sent_id -1, -1, -1):
+            verbs = textacy.extract.token_matches(self.sents[i], patterns=patterns)
             if sum(1 for _ in verbs) > 0:
                 count += 1
         return count
     
     def get_pronoun_path(self) -> str:
-        sents = list(self.doc.sents)
-        anph_sent_id = self.anph_sent_id()
         anph = self.pronoun_of_anph()
-        for token in sents[anph_sent_id]:
+        for token in self.sents[self.anph_sent_id]:
             if token.dep_ == 'ROOT':
                 for child in token.children:
                     if str(child) == anph:
@@ -75,20 +69,25 @@ class Helper:
         return ''
     
     def get_parent_lemma(self) -> str:
-        sents = list(self.doc.sents)
-        anph_sent_id = self.anph_sent_id()
         anph = self.pronoun_of_anph()
-        for token in sents[anph_sent_id]:
+        for token in self.sents[self.anph_sent_id]:
             if token.dep_ == 'ROOT':
-                return token.lemma_
+                for child in token.children:
+                    if child.text == anph:
+                        return token.lemma_
             
         return ''
     
-    def get_negated_parent(self) -> bool:
-        sents = list(self.doc.sents)
-        anph_sent_id = self.anph_sent_id()
+    def get_parent_and_label(self) -> Union[str, str]:
         anph = self.pronoun_of_anph()
-        for token in sents[anph_sent_id]:
+        for token in self.sents[self.anph_sent_id]:
+            if token.text == anph and token.has_head:
+                return token.head.lemma_,token.dep_
+        return '', ''    
+    
+    def get_negated_parent(self) -> bool:
+        anph = self.pronoun_of_anph()
+        for token in self.sents[self.anph_sent_id]:
             if token.dep_ == 'ROOT':
                 for child in token.children:
                     if child.dep_ == 'neg':
@@ -96,10 +95,8 @@ class Helper:
         return False
     
     def get_parent_transitivity(self) -> bool:
-        sents = list(self.doc.sents)
-        anph_sent_id = self.anph_sent_id()
         anph = self.pronoun_of_anph()
-        for token in sents[anph_sent_id]:
+        for token in self.sents[self.anph_sent_id]:
             if token.dep_ == 'ROOT':
                 for child in token.children:
                     if "obj" in child.dep_:

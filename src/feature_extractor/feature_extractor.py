@@ -1,5 +1,6 @@
 from typing import List
 import json
+import pandas as pd
 
 from labels import get_lables
 from helper import Helper
@@ -35,7 +36,8 @@ def parse_json(label_std_data :List):
             pronoun = helper.pronoun_of_anph()
             token_pos = helper.relative_pos_anph_sent()
             verb_presence = helper.get_verb_presence()
-            parent_lemma = helper.get_parent_lemma()
+            parent_lemma_verb = helper.get_parent_lemma()
+            parent_lemma, parent_label = helper.get_parent_and_label()
             negated_parent = helper.get_negated_parent()
             parent_transitivity = helper.get_parent_transitivity()
             pronoun_path = helper.get_pronoun_path()
@@ -43,7 +45,9 @@ def parse_json(label_std_data :List):
             temp.append(pronoun)
             temp.append(token_pos)
             temp.append(verb_presence)
+            temp.append(parent_lemma_verb)
             temp.append(parent_lemma)
+            temp.append(parent_label)
             temp.append(negated_parent)
             temp.append(parent_transitivity)
             temp.append(pronoun_path)
@@ -56,4 +60,14 @@ def parse_json(label_std_data :List):
 
 if __name__ == "__main__":
     label_std_data = load_data("/Users/anushkumarv/Projects/AbstractAnaphoraCSCI7000/data/Resisting_rhetorics_of_language_endangerment/annotation.json")
-    print(parse_json(label_std_data))
+    data = parse_json(label_std_data)
+    df = pd.DataFrame(data, columns = ['pronoun', 'token_pos','verb_presence','parent_lemma_verb','parent_lemma','parent_label','negated_parent','parent_transitivity','pronoun_path','is_abs_anph'])
+    print(df['parent_label'])
+    print("This abstract_anaphora")
+    print(len(df[(df['is_abs_anph'] == True) & (df['pronoun'] == 'This')]) + len(df[(df['is_abs_anph'] == True) & (df['pronoun'] == 'this')]))
+    print("This non abstract_anaphora")
+    print(len(df[(df['is_abs_anph'] == False) & (df['pronoun'] == 'This')]) + len(df[(df['is_abs_anph'] == False) & (df['pronoun'] == 'this')]))
+    print("That abstract_anaphora")
+    print(len(df[(df['is_abs_anph'] == True) & (df['pronoun'] == 'That')]) + len(df[(df['is_abs_anph'] == True) & (df['pronoun'] == 'that')]))
+    print("That non abstract_anaphora")
+    print(len(df[(df['is_abs_anph'] == False) & (df['pronoun'] == 'That')]) + len(df[(df['is_abs_anph'] == False) & (df['pronoun'] == 'that')]))

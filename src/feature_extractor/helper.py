@@ -1,7 +1,8 @@
+import json
 import textacy
 import spacy
 from nltk.tokenize import word_tokenize
-from typing import Union
+from typing import Union, List
 
 from labels import get_lables
 
@@ -9,7 +10,14 @@ nlp = spacy.load("en_core_web_sm")
 
 label_non_abs_anph_set, label_non_abs_antd_set, label_abs_anph_set, label_abs_antd_set = get_lables()
 
-class Helper:
+def load_data(filename :str) -> List:
+    with open(filename) as f:
+        json_data = f.read()
+    label_std_data = json.loads(json_data)
+    return label_std_data
+
+
+class HelperClassifier:
     def __init__(self, label: dict, datapoint: dict, label_anph_obj: dict, label_antd_obj: dict) -> None:
         self.label = label
         self.datapoint = datapoint
@@ -107,3 +115,7 @@ class Helper:
     def is_abstract_anaphora(self) -> bool:
         return True if self.label_anph_obj.get("labels")[0] in label_abs_anph_set else False
     
+
+class HelperAntecedent:
+    def __init__(self) -> None:
+        pass

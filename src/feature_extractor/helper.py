@@ -1,6 +1,7 @@
 import json
 import textacy
 import spacy
+import math
 from nltk.tokenize import word_tokenize
 from typing import Union, List
 
@@ -51,12 +52,10 @@ class HelperClassifier:
     def relative_pos_anph_sent(self) -> int:
         anph_sent = str(self.sents[self.anph_sent_id])
         relative_idx = self.start_idx_anph_relative()
-        count = 0
-        for i in range(relative_idx, -1, -1):
-                if anph_sent[i] == ' ':
-                    count += 1
-
-        return count + 1
+        anph = self.pronoun_of_anph()
+        for i, token in enumerate(self.sents[self.anph_sent_id]):
+            if token.text == anph:
+                return i + 1
         
     def get_verb_presence(self) -> int:
         patterns = [{"POS": "VERB"}]
@@ -116,6 +115,140 @@ class HelperClassifier:
         return True if self.label_anph_obj.get("labels")[0] in label_abs_anph_set else False
     
 
-class HelperAntecedent:
-    def __init__(self) -> None:
-        pass
+class HelperAntecedent(HelperClassifier):
+    def __init__(self, label: dict, datapoint: dict, label_anph_obj: dict, label_antd_obj: dict) -> None:
+        super().__init__(label, datapoint, label_anph_obj, label_antd_obj)
+        self.antd_start_pos = self.label_antd_obj.get("start")
+        self.antd_end_pos = self.label_antd_obj.get("end")
+        self.antd = self.data[self.antd_start_pos: self.antd_end_pos+1]
+        self.antd_sent_id = self.get_antd_sent_id()
+
+    def get_antd_sent_id(self) -> int:
+        start = 0
+        for i in range(len(self.sents)):
+            end = start + len(str(self.sents[i]))
+            if self.antd_start_pos >= start  and self.antd_start_pos <= end:
+                return i
+            start = end + 1
+        return len(self.sents) - 1
+    
+    def get_sent_distance(self) -> int:
+        anph_sent_id = self.get_anph_sent_id()
+        antd_sent_id = self.get_antd_sent_id()
+        return anph_sent_id - antd_sent_id
+    
+    def get_start_idx_antd_relative(self) -> int:
+        start = sum([len(str(self.sents[i])) + 1 for i in range(self.antd_sent_id)])
+        return self.antd_start_pos - start
+    
+    def relative_pos_start_end_token_antd_sent(self) -> int:
+        doc_antd  = nlp(self.antd)
+        match = True
+        for i, _ in enumerate(self.sents[self.antd_sent_id]):
+            for j, token_antd in enumerate(doc_antd):
+                if self.sents[self.antd_sent_id][i+j].text != token_antd.text:
+                    match = False
+                    break
+            if match:
+                return i, i + len(doc_antd) - 1
+            match = True 
+        print("returning entire sentence")
+        return 0, len(self.sents[self.antd_sent_id]) - 1
+            
+    def get_end_idx_antd_relative(self) -> int:
+        last_idx = self.antd_end_pos
+        while self.data[last_idx - 1] != ' ':
+            last_idx -= 1
+        start = sum([len(str(self.sents[i])) + 1 for i in range(self.antd_sent_id)])
+        return last_idx - start
+    
+    def get_verb_token_id(self) -> int:
+        antd_sent_id = self.get_antd_sent_id()
+        antd_start_token_id, antd_end_token_id = self.relative_pos_start_end_token_antd_sent()
+        for i, token in enumerate(self.sents[antd_sent_id]):
+            if token.dep_ == 'ROOT' and i >= antd_start_token_id and i <= antd_end_token_id:
+                print('got root verb', token.text)
+                return i
+            
+        for i in range(len(self.sents[antd_sent_id]) -1, -1, -1):
+            token = self.sents[antd_sent_id][i]
+            if token.pos_ == 'VERB' and i >= antd_start_token_id and i <= antd_end_token_id:
+                print('got last verb', token.text)
+                return i
+            
+        for i in range(len(self.sents[antd_sent_id]) -1, -1, -1):
+            token = self.sents[antd_sent_id][i]
+            if token.dep_ == 'ROOT':
+                print('returning dep', token.text)
+                return i
+        return 0 
+
+    def get_log_token_distance(self) -> float:
+        
+        if self.antd_sent_id < self.anph_sent_id:
+            token_distance = len(self.sents[self.antd_sent_id]) - self.get_verb_token_id() + self.relative_pos_anph_sent()
+            print('diff sent token distance')
+            return math.log(token_distance)
+        else:
+            print('same sent token distance')
+            anph_pos, verb_pos = self.relative_pos_anph_sent(), self.get_verb_token_id()
+            return math.log(anph_pos - verb_pos) if anph_pos > verb_pos else 0
+        
+    def get_relative_positon(self) -> bool:
+        if self.antd_sent_id < self.anph_sent_id:
+            return True
+        else:
+            anph_pos, verb_pos = self.relative_pos_anph_sent(), self.get_verb_token_id()
+            return True if anph_pos > verb_pos else False
+        
+    def get_direct_dominance(self) -> bool:
+        if self.antd_sent_id < self.anph_sent_id:
+            return False
+        else:
+            verb_pos = self.get_verb_token_id()
+            anph = self.pronoun_of_anph()
+            for token in self.sents[self.antd_sent_id][verb_pos].children:
+                if token.text == anph:
+                    return True
+            return False
+        
+    def get_dominance(self) -> bool:
+        if self.antd_sent_id < self.anph_sent_id:
+            return False
+        else:
+            verb_pos = self.get_verb_token_id()
+            verb = self.sents[self.antd_sent_id][verb_pos].text
+            if self.sents[self.antd_sent_id][verb_pos].dep_ ==  "ROOT":
+                return True
+            token_pos = self.relative_pos_anph_sent()
+            token = self.sents[self.antd_sent_id][token_pos]
+            while token.dep_ != "ROOT":
+                if token.text == verb:
+                    return True
+                token = token.head
+            return False
+        
+    def get_candidate_path(self) -> str:
+        verb_pos = self.get_verb_token_id()
+        token = self.sents[self.antd_sent_id][verb_pos]
+        if token.dep_ == "ROOT":
+            return "ROOT"
+        if token.head.text == token.text:
+            return token.dep_
+        return ''
+    
+    def get_negated_candidate(self) -> bool:
+        verb_pos = self.get_verb_token_id()
+        token = self.sents[self.antd_sent_id][verb_pos]        
+        for child in token.children:
+            if child.dep_ == 'neg':
+                return True 
+        return False
+        
+    def get_candidate_transitivity(self): 
+        verb_pos = self.get_verb_token_id()
+        token = self.sents[self.antd_sent_id][verb_pos]  
+        for child in token.children:
+            if "obj" in child.dep_:
+                return True
+        return False

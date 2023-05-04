@@ -30,6 +30,7 @@ def feature_extractor_antecedents(label_std_data :List) -> List:
             candidate_path = helper.get_candidate_path(); temp.append(candidate_path)
             negated_candidate = helper.get_negated_candidate(); temp.append(negated_candidate)
             candidate_transitivity = helper.get_candidate_transitivity(); temp.append(candidate_transitivity)
+            abs_anph = helper.is_abstract_anaphora(); temp.append(abs_anph) 
             data.append(temp)
 
     return data

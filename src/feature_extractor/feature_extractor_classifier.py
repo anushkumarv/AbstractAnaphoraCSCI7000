@@ -44,7 +44,7 @@ if __name__ == "__main__":
     label_std_data = load_data("/Users/anushkumarv/Projects/AbstractAnaphoraCSCI7000/data/Resisting_rhetorics_of_language_endangerment/annotation.json")
     data = extract_features_classifier(label_std_data)
     df = pd.DataFrame(data, columns = ['pronoun', 'token_pos','verb_presence','parent_lemma_verb','parent_lemma','parent_label','negated_parent','parent_transitivity','pronoun_path','is_abs_anph'])
-    print(df['parent_label'])
+    print(df)
     print("This abstract_anaphora")
     print(len(df[(df['is_abs_anph'] == True) & (df['pronoun'] == 'This')]) + len(df[(df['is_abs_anph'] == True) & (df['pronoun'] == 'this')]))
     print("This non abstract_anaphora")

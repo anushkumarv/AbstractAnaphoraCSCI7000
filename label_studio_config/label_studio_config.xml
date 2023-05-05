@@ -1,0 +1,33 @@
+<View>
+  <Relations>
+    <Relation value="relation"/>
+  </Relations>
+  <Labels name="label" toName="text">
+    <Label value="NonAbsAntd" background="#FFA39E"/>
+    <Label value="NonAbsAnph" background="#D4380D"/>
+    <Label value="EvAntd" background="#FFC069"/>
+    <Label value="EvAnph" background="#AD8B00"/>
+    <Label value="ProcAntd" background="#D3F261"/>
+    <Label value="ProcAnph" background="#389E0D"/>
+    <Label value="StateAntd" background="#5CDBD3"/>
+    <Label value="StateAnph" background="#096DD9"/>
+    <Label value="CircAntd" background="#ADC6FF"/>
+    <Label value="CircAnph" background="#9254DE"/>
+    <Label value="DeverbAntd" background="#F759AB"/>
+    <Label value="DeverbAnph" background="#FFA39E"/>
+    <Label value="FactAntd" background="#D4380D"/>
+    <Label value="FactAnph" background="#FFC069"/>
+    <Label value="SubjAntd" background="#AD8B00"/>
+    <Label value="SubjAnph" background="#D3F261"/>
+    <Label value="NegAntd" background="#389E0D"/>
+    <Label value="NegAnph" background="#5CDBD3"/>
+    <Label value="ModAntd" background="#096DD9"/>
+    <Label value="ModAnph" background="#ADC6FF"/>
+    <Label value="WhAntd" background="#9254DE"/>
+    <Label value="WhAnph" background="#F759AB"/>
+    <Label value="PropAntd" background="#FFA39E"/>
+    <Label value="PropAnph" background="#D4380D"/>
+  </Labels>
+
+  <Text name="text" value="$corefText"/>
+</View>

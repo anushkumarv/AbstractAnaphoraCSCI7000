@@ -45,3 +45,5 @@ if __name__ == '__main__':
     data = extract_classifier_features()
     df = pd.DataFrame(data, columns = ['pronoun', 'token_pos','verb_presence','parent_lemma_verb','parent_lemma','parent_label','negated_parent','parent_transitivity','pronoun_path','is_abs_anph'])
     print(df.head())
+    print(len(df))
+    print(len(df[df['is_abs_anph'] == True]))

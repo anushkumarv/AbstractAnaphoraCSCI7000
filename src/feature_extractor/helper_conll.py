@@ -1,6 +1,7 @@
 from collections import defaultdict
 from tqdm import tqdm
 from typing import Union
+import math
 import textacy
 import spacy
 from spacy.matcher import Matcher
@@ -109,5 +110,101 @@ class HelperConllClassifier:
         return True if len(matches) > 0 else False
     
 
+class HelperConllAntecedent(HelperConllClassifier):
+    def __init__(self, sents, anph_sent_id, anph_id) -> None:
+        super().__init__(sents, anph_sent_id, anph_id)
+
+    def get_verb_candidates(self):
+        candidates = list()
+        n_prev_sent = 3 
+        for i in range(self.anph_sent_id, -1 , -1):
+            if n_prev_sent < 0:
+                break
+            doc_sent = nlp(' '.join(self.sents[i]))
+            for j, token in enumerate(doc_sent):
+                if token.pos_ == 'VERB':
+                    candidates.append((i,j))
+            n_prev_sent -= 1
+
+        return candidates
+    
+    def get_sent_distance(self, sent_id):
+        return sent_id - self.anph_sent_id
+    
+    def get_log_token_distance(self, sent_id, cand_vb_id) -> int:
+        if sent_id < self.anph_sent_id:
+            token_distance = sum([len(self.sents[i]) for i in range(sent_id + 1, self.anph_sent_id)])
+            token_distance += len(self.sents[sent_id]) - cand_vb_id + self.anph_id
+            return math.log(token_distance) if token_distance > 0 else 0
+    
+        else:
+            if cand_vb_id < self.anph_id:
+                token_distance = self.anph_id - cand_vb_id
+                return math.log(token_distance)
+            else:
+                return 0
+
+    def get_relative_positon(self, sent_id, cand_vb_id) -> bool:
+        if sent_id < self.anph_sent_id:
+            return True
+        else:
+            return True if cand_vb_id < self.anph_id else False
         
+    def get_direct_dominance(self, sent_id, cand_vb_id) -> bool:
+        if sent_id < self.anph_sent_id:
+            return False
+        else:
+            doc_anph_sent  = nlp(' '.join(self.sents[self.anph_sent_id]))
+            anph_token = doc_anph_sent[self.anph_id]
+            verb_token = doc_anph_sent[cand_vb_id]
+            for child in verb_token.children:
+                if child.text == anph_token.text:
+                    return True
+            return False
+        
+    def get_dominance(self, sent_id, cand_vb_id) -> bool:
+        if sent_id < self.anph_sent_id:
+            return False
+        else:
+            doc_anph_sent  = nlp(' '.join(self.sents[self.anph_sent_id]))
+            anph_token = doc_anph_sent[self.anph_id]
+            verb_token = doc_anph_sent[cand_vb_id]
+            while anph_token.dep_ != 'ROOT':
+                if anph_token.text == verb_token.text:
+                    return True
+                anph_token = anph_token.head
+            return False
+        
+    def get_candidate_path(self, sent_id, cand_vb_id) -> str:
+        doc_sent = nlp(' '.join(self.sents[sent_id]))
+        verb_token = doc_sent[cand_vb_id]
+        if verb_token.dep_ == 'ROOT':
+            return 'ROOT'
+        elif verb_token.head.dep_ == 'ROOT':
+            return verb_token.dep_
+        else:
+            return ''
+        
+    def get_negated_candidate(self, sent_id, cand_vb_id) -> bool:
+        doc_sent = nlp(' '.join(self.sents[sent_id]))
+        verb_token = doc_sent[cand_vb_id]
+        for child in verb_token.children:
+            if child.dep_ == 'neg':
+                return True
+        return False
+    
+    def get_candidate_transitivity(self, sent_id, cand_vb_id) -> str:
+        doc_sent = nlp(' '.join(self.sents[sent_id]))
+        verb_token = doc_sent[cand_vb_id]
+        for child in verb_token.children:
+            if 'obj' in child.dep_:
+                return True
+        return False
+    
+    def is_antd(self, sent_id, cand_vb_id, anph_sent_id, prev_start, prev_end) -> bool:
+        if sent_id == anph_sent_id and cand_vb_id >= prev_start and cand_vb_id <= prev_end:
+            return True
+        else:
+            return False
+
 

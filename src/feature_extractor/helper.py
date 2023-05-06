@@ -56,6 +56,7 @@ class HelperClassifier:
         for i, token in enumerate(self.sents[self.anph_sent_id]):
             if token.text == anph:
                 return i + 1
+        return 0
         
     def get_verb_presence(self) -> int:
         patterns = [{"POS": "VERB"}]
@@ -275,9 +276,12 @@ class HelperAntecedent(HelperClassifier):
         match = True
         for i, _ in enumerate(self.sents[self.antd_sent_id]):
             for j, token_antd in enumerate(doc_antd):
-                if self.sents[self.antd_sent_id][i+j].text != token_antd.text:
-                    match = False
-                    break
+                try:
+                    if self.sents[self.antd_sent_id][i+j].text != token_antd.text:
+                        match = False
+                        break
+                except:
+                    continue
             if match:
                 return i, i + len(doc_antd) - 1
             match = True 
